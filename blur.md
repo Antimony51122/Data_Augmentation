@@ -2,76 +2,7 @@
 
 <!--- Motion Blur Session --->
 
-## Motion Blur - Uniform & Linear
 
-### Principle:
-
-### Generation:
-      
-#### Algorithms:
-
-### Compensation:
-
-#### Prototype: Sharpening with Emboss
-
-**the original image**
-
-<table>
-	<tr>
-		<th><img src="images/motion_blur/0_original.jpg"></th>
-	</tr>
-</table>
-
-##### 1) Smart Sharpening:
-
-No pre-set settings, carry out experiments, due that their angles, pixels are very different to each other
-
-If we crop the image to the place most significantly shows the effect of motion blur (in this case: around eyes)
-
-<table>
-  	<tr>
-    	<th>Original</th>
-    	<th>After Smart Sharpening</th>
-  	</tr>
-  	<tr>
-    	<td><img src="images/motion_blur/0_original.png"></td>
-    	<td><img src="images/motion_blur/1_smart_sharpening.png"></td>
-  	</tr>
-</table>
-
-##### 2) Further compensating with Emboss
-
-- Emboss with Angle opposite to the angle of removing sharpening, if the same angle as above, will compound the halos
-    
-	- Height: 1px
-	- Amount: 500%
-	- Blending Option: Overlay (or try other modes in the overlay category)
-
-<table>
-  	<tr>
-    	<th>After Smart Sharpening</th>
-    	<th>After Emboss</th>
-  	</tr>
-  	<tr>
-    	<td><img src="images/motion_blur/1_smart_sharpening.png"></td>
-    	<td><img src="images/motion_blur/2_emboss_normal.png"></td>
-  	</tr>
-</table>
-
-Emboss Algorithm: <https://www.packtpub.com/mapt/book/application_development/9781785283932/2/ch02lvl1sec23/embossing>
-
-**Blend Mode: Overlay:**
-
-<table>
-  	<tr>
-    	<th>Emboss Normal Blend Mode</th>
-    	<th>Emboss Overlay Blend Mode</th>
-  	</tr>
-  	<tr>
-    	<td><img src="images/motion_blur/2_emboss_normal.png"></td>
-    	<td><img src="images/motion_blur/3_emboss_overlay.png"></td>
-  	</tr>
-</table>
 
 <!--- Defocus Blur Session --->
 

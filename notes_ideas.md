@@ -27,8 +27,8 @@ parent web: <https://plus.google.com/+Hdesigntutorials>
     	<th>Image after De-pixelation</th>
   	</tr>
   	<tr>
-    	<td><img src="images/de-pixelate/Trump_resLowLow.png" width=500px></td>
-    	<td><img src="images/de-pixelate/Trump_resHigh_sharpen.png" width=500px></td>
+    	<td><img src="images/2Dprocessing/de-pixelate/Trump_resLowLow.png" width=500px></td>
+    	<td><img src="images/2Dprocessing/de-pixelate/Trump_resHigh_sharpen.png" width=500px></td>
   	</tr>
 </table>
 
@@ -77,8 +77,8 @@ parent web: <https://plus.google.com/+Hdesigntutorials>
     	<th>Image after Perspective Wrap</th>
   	</tr>
   	<tr>
-    	<td><img src="images/lens_correction/0_original.png" width=500px></td>
-    	<td><img src="images/lens_correction/1_perspective_wrap.png" width=500px></td>
+    	<td><img src="images/2Dprocessing/lens_correction/0_original.png" width=500px></td>
+    	<td><img src="images/2Dprocessing/lens_correction/1_perspective_wrap.png" width=500px></td>
   	</tr>
 </table>
        
@@ -95,8 +95,8 @@ parent web: <https://plus.google.com/+Hdesigntutorials>
     	<th>Image after Lens Correction (solve fish-eye)</th>
   	</tr>
   	<tr>
-    	<td><img src="images/lens_correction/1_perspective_wrap.png" width=500px></td>
-    	<td><img src="images/lens_correction/2_lens_correction.png" width=500px></td>
+    	<td><img src="images/2Dprocessing/lens_correction/1_perspective_wrap.png" width=500px></td>
+    	<td><img src="images/2Dprocessing/lens_correction/2_lens_correction.png" width=500px></td>
   	</tr>
 </table>
 
@@ -116,8 +116,8 @@ parent web: <https://plus.google.com/+Hdesigntutorials>
     	<th>Image after Lens Colour/ Brightness/ Contrast Tuning</th>
   	</tr>
   	<tr>
-    	<td><img src="images/lens_correction/2_lens_correction.png" width=500px></td>
-    	<td><img src="images/lens_correction/3_effects.png" width=500px></td>
+    	<td><img src="images/2Dprocessing/lens_correction/2_lens_correction.png" width=500px></td>
+    	<td><img src="images/2Dprocessing/lens_correction/3_effects.png" width=500px></td>
   	</tr>
 </table>
 
