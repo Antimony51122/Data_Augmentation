@@ -41,8 +41,25 @@ Motion blur is the apparent streaking of moving objects in a photograph or a seq
 In general there are two parameters which need to be considered when dealing with such a blur. Intuitively, these are the magnitude and the direction of the blur. To replicate motion blur using a blur kernel we start by constructing a matrix of zeroes. We then replace the entries of a specific row with 1's (usually the middle row), to imitate the effect of the blur. Finally we rotate the matrix by a specified angle and normalise it.
 
 <div align=center>
-	<img src="images/motion_blur/motionBlur_kernels.jpg" width=50% />
+	<img src="images/2Dprocessing/motion_blur/motionBlur_kernels.jpg" width=50% />
 </div>
+
+<table>
+  	<tr>
+    	<th>Original</th>
+    	<th>Horizontal  </br>  6 pixels</th>
+		<th>118 degrees </br>  5 pixels</th>
+		<th>93 degrees  </br>  7 pixels</th>
+		<th>4 degrees   </br> 11 pixels</th>
+  	</tr>
+  	<tr>
+    	<td><img src="images/2Dprocessing/motion_blur/Hillary/Hillary.jpg"></td>
+    	<td><img src="images/2Dprocessing/motion_blur/Hillary/Hillary_liangAlgorithm_horizontal_6.jpg"></td>
+		<td><img src="images/2Dprocessing/motion_blur/Hillary/Hillary_motionBlur_5_118.jpg"></td>
+		<td><img src="images/2Dprocessing/motion_blur/Hillary/Hillary_motionBlur_7_93.jpg"></td>
+		<td><img src="images/2Dprocessing/motion_blur/Hillary/Hillary_motionBlur_11_4.jpg"></td>
+  	</tr>
+</table>
 
 ### Compensation:
 
