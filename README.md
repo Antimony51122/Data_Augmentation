@@ -23,7 +23,7 @@ Obtaining video that captures that fits the needs for the training set is not si
 
 ### Main Features:
 
-- Front-lighting
+- Front-lighting / Noon
 - Round Corner
 - Vehicles mainly middle and smaller car, motors
 - Mere pedestrians
@@ -35,11 +35,21 @@ In order to capture as many angles of views as possible, especially the gradual 
 
 ### Main Features:
 
-- Back-lighting
+- Back-lighting / Afternoon
 - Large Round Corner with huge turn
 - All Vehicles presenting
 - Frequent pedestrians
-- Tree branches and barricades presenting but not covering key information
+- Tree branches, Traffic signs and barricades presenting but not covering key information
+
+## Scene 3: A bridge in front of the Exit of a Housing Estate
+
+### Main Features:
+
+- Partial Back-lighting / Sunset
+- Round Corner with a half complete turn
+- Mostly motors and bicycles presenting
+- All kinds of pedestrians
+- Tree branches presenting but not covering key information
 
 # Rapid Prototypes of 2D Image Processing
 
