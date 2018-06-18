@@ -76,8 +76,6 @@ On the other hand, originally we might choose a even closer position to capture 
 
 ## Scene 2: Interception of Tunnel Exit with Urban Traffic Arterial
 
-
-
 ### Main Features:
 
 - Back-lighting / Afternoon
@@ -86,7 +84,30 @@ On the other hand, originally we might choose a even closer position to capture 
 - Frequent pedestrians
 - Tree branches, Traffic signs and barricades presenting but not covering key information
 
-
+<table>
+  	<tr>
+    	<th>Original Photo</th>
+  	</tr>
+  	<tr>
+		<td>
+			<img src="images/videoData_acquisition/interception_back-light/main_road_back-light.png">
+		</td>
+	</tr>
+</table>
+<table>
+  	<tr>
+    	<th>View Span Outlined</th>
+    	<th>Strong Back-lighting</th>
+  	</tr>
+  	<tr>
+		<td>
+			<img src="images/videoData_acquisition/interception_back-light/main_road_back-light_labelled1.png">
+		</td>
+		<td>
+			<img src="images/videoData_acquisition/interception_back-light/main_road_back-light_labelled2.png">
+		</td>
+  	</tr>
+</table>
 
 </br>
 
