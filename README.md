@@ -104,6 +104,23 @@ On the other hand, originally we might choose a even closer position to capture 
 
 </br>
 
+# 2D Image Processing Algorithms
+
+
+
+<table>
+  	<tr>
+    	<th>Affine Transformation </br> Null pixels filled with light gray</th>
+    	<th>Affine Transformation </br> Null pixels filled with dark gray</th>
+    	<th>Affine Transformation </br> Null pixels filled with black</th>
+  	</tr>
+  	<tr>
+		<td><img src="images/2Dprocessing/license_plate_total/affine_transformation1.jpg"></td>
+		<td><img src="images/2Dprocessing/license_plate_total/affine_transformation2.jpg"></td>
+		<td><img src="images/2Dprocessing/license_plate_total/affine_transformation3.jpg"></td>
+  	</tr>
+</table>
+
 # Rapid Prototypes of 2D Image Processing
 
 Before directly aimlessly going into coding, it was more targeted to start with applying design engineering agile
