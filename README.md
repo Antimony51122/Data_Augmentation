@@ -111,7 +111,7 @@ On the other hand, originally we might choose a even closer position to capture 
     	<th>Original License Plate</th>
   	</tr>
   	<tr>
-		<td><img src="images/2Dprocessing/license_plate_total/original.jpg" width=260px></td>
+		<td><img src="images/2Dprocessing/license_plate_total/original.jpg" width=265px></td>
   	</tr>
 </table>
 
@@ -124,9 +124,9 @@ On the other hand, originally we might choose a even closer position to capture 
     	<th>Motion Blur </br> extreme</th>
   	</tr>
   	<tr>
-		<td><img src="images/2Dprocessing/license_plate_total/motion_blur_9.jpg" width=260px></td>
-		<td><img src="images/2Dprocessing/license_plate_total/motion_blur_11.jpg" width=260px></td>
-		<td><img src="images/2Dprocessing/license_plate_total/motion_blur_extreme.jpg" width=260px></td>
+		<td><img src="images/2Dprocessing/license_plate_total/motion_blur_9.jpg" width=265px></td>
+		<td><img src="images/2Dprocessing/license_plate_total/motion_blur_11.jpg" width=265px></td>
+		<td><img src="images/2Dprocessing/license_plate_total/motion_blur_extreme.jpg" width=265px></td>
   	</tr>
 </table>
 
@@ -139,9 +139,9 @@ On the other hand, originally we might choose a even closer position to capture 
     	<th>Affine Transformation </br> Null pixels filled with black</th>
   	</tr>
   	<tr>
-		<td><img src="images/2Dprocessing/license_plate_total/affine_transformation1.jpg" width=260px></td>
-		<td><img src="images/2Dprocessing/license_plate_total/affine_transformation2.jpg" width=260px></td>
-		<td><img src="images/2Dprocessing/license_plate_total/affine_transformation3.jpg" width=260px></td>
+		<td><img src="images/2Dprocessing/license_plate_total/affine_transformation1.jpg" width=265px></td>
+		<td><img src="images/2Dprocessing/license_plate_total/affine_transformation2.jpg" width=265px></td>
+		<td><img src="images/2Dprocessing/license_plate_total/affine_transformation3.jpg" width=265px></td>
   	</tr>
 </table>
 
@@ -153,8 +153,8 @@ On the other hand, originally we might choose a even closer position to capture 
     	<th>Pixelation </br> extreme</th>
   	</tr>
   	<tr>
-		<td><img src="images/2Dprocessing/license_plate_total/pixelation.jpg" width=260px></td>
-		<td><img src="images/2Dprocessing/license_plate_total/pixelation_extreme.jpg" width=260px></td>
+		<td><img src="images/2Dprocessing/license_plate_total/pixelation.jpg" width=265px></td>
+		<td><img src="images/2Dprocessing/license_plate_total/pixelation_extreme.jpg" width=265px></td>
   	</tr>
 </table>
 
@@ -165,12 +165,12 @@ On the other hand, originally we might choose a even closer position to capture 
     	<th>Histogram</th>
   	</tr>
   	<tr>
-		<td><img src="images/2Dprocessing/license_plate_total/histogram_equalisation.jpg" width=260px></td>
+		<td><img src="images/2Dprocessing/license_plate_total/histogram_equalisation.jpg" width=265px></td>
   	</tr>
 </table>
 
 ### Brightness Variation
-
+Unachievable
 <table>
   	<tr>
     	<th>Brightness Variation </br> increase (daylight)</th>
@@ -178,9 +178,24 @@ On the other hand, originally we might choose a even closer position to capture 
     	<th>Brightness Variation </br> extreme (very dark night) </br> <b>loss of key features</b></th>
   	</tr>
   	<tr>
-		<td><img src="images/2Dprocessing/license_plate_total/brightness_increase.jpg" width=260px></td>
-		<td><img src="images/2Dprocessing/license_plate_total/brightness_decrease.jpg" width=260px></td>
-		<td><img src="images/2Dprocessing/license_plate_total/brightness_extreme.jpg" width=260px></td>
+		<td><img src="images/2Dprocessing/license_plate_total/brightness_increase.jpg" width=265px></td>
+		<td><img src="images/2Dprocessing/license_plate_total/brightness_decrease.jpg" width=265px></td>
+		<td><img src="images/2Dprocessing/license_plate_total/brightness_extreme.jpg" width=265px></td>
+  	</tr>
+</table>
+
+### Combinations
+
+<table>
+  	<tr>
+    	<th>Gentle Gaussian Blur</th>
+    	<th>Main Blur (combination of blurs)</th>
+    	<th>Unachievable Blur </br> (need to be manually deducted </br> from the training set)</th>
+  	</tr>
+  	<tr>
+		<td><img src="images/2Dprocessing/license_plate_total/gaussian_blur.jpg" width=265px></td>
+		<td><img src="images/2Dprocessing/license_plate_total/main_blur.jpg" width=265px></td>
+		<td><img src="images/2Dprocessing/license_plate_total/unachievable_blur.jpg" width=265px></td>
   	</tr>
 </table>
 
