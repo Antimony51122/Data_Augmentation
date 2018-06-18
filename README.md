@@ -29,7 +29,7 @@ Obtaining video that captures that fits the needs for the training set is not si
 - Mere pedestrians
 - Tree branches and barricades presenting
 
-In order to capture as many angles of views as possible, especially the gradual transition from front view to side view, we priorly chose road with round corners due that you cannot place the camera just facing in front of the cars in the middle of the road to shoot for the front. The first we have chosen was a large round corner of a road outside a tunnel exit. (remind again the following are just photos from my phone only for instruction, screenshots from the real surveillance camera are not allowed to be provided)
+In order to capture as many angles of views as possible, especially the gradual transition from front view to side view, we priorly chose road with round corners due that you cannot place the camera just facing in front of the cars in the middle of the road to shoot for the front. The first we have chosen was a large round corner of a road outside a tunnel exit. (remind again the following are just photos from my phone only for instructions thus the image quality and professionality is not of high proficient standard, screenshots from the real surveillance camera are not permitted to be provided)
 
 <table>
   	<tr>
@@ -41,6 +41,8 @@ In order to capture as many angles of views as possible, especially the gradual 
     	<td><img src="images/videoData_acquisition/tunnel_exit/tunnel_exit_3people_labelled.jpg"></td>
   	</tr>
 </table>
+
+As shown below, by this angle, we can capture the front view of a car just at the exit of the tunnel, also the camera is high enough to obtain a large look down angle which is also useful for license plate investigations. When the cars come closer, front angle turns gradually to 45 degrees which by applying appropriate algorithms in the future, might be able to reconstruct the 3D car model, besides, the license plate has also been shot in a even larger looking down angle. When turning to 60 degrees side view, we can only see part of the car so the captures might not be as useful as the previous ones.
 
 <table>
   	<tr>
@@ -55,7 +57,20 @@ In order to capture as many angles of views as possible, especially the gradual 
   	</tr>
 </table>
 
+On the other hand, originally we might choose a even closer position to capture as shown below. As you can perceive, this might be a even better angle for front view, however, the vehicles were partially covered by the traffic signs and barricade the pedestrians are almost completely being covered by tree branches. The latter reason vastly brought down the value of the image left only useful informations from the cars to be fed into the training data set. Due to the concerns of mitigating all the viewing obstacles, we have abandoned this position.
+
+<table>
+  	<tr>
+    	<th>Shooting obstacles outlined if we chose a closer position</th>
+  	</tr>
+  	<tr>
+    	<td><img src="images/videoData_acquisition/tunnel_exit/obstacles.jpg"></td>
+  	</tr>
+</table>
+
 ## Scene 2: Interception of Tunnel Exit with Urban Traffic Arterial
+
+
 
 ### Main Features:
 
