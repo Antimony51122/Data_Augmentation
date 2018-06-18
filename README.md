@@ -104,7 +104,11 @@ On the other hand, originally we might choose a even closer position to capture 
 
 </br>
 
+<!-------------------- data acquisition section finished -------------------->
+
 # 2D Image Processing Algorithms
+
+> IMPORTANT: this session shows a glimpse at the beginning, of a small part of real training set we have produced. No source code permitted to be provided. For the rest sessions, works using the same technique processing on other images from other resources other than the original data set will be provided instead.
 
 <table>
   	<tr>
@@ -170,7 +174,7 @@ On the other hand, originally we might choose a even closer position to capture 
 </table>
 
 ### Brightness Variation
-Unachievable
+
 <table>
   	<tr>
     	<th>Brightness Variation </br> increase (daylight)</th>
@@ -198,6 +202,8 @@ Unachievable
 		<td><img src="images/2Dprocessing/license_plate_total/unachievable_blur.jpg" width=265px></td>
   	</tr>
 </table>
+
+</br>
 
 # Rapid Prototypes of 2D Image Processing
 
