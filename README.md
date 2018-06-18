@@ -145,6 +145,45 @@ On the other hand, originally we might choose a even closer position to capture 
   	</tr>
 </table>
 
+### Pixelation 
+
+<table>
+  	<tr>
+    	<th>Pixelation </br> reduced size 4 and restore</th>
+    	<th>Pixelation </br> extreme</th>
+  	</tr>
+  	<tr>
+		<td><img src="images/2Dprocessing/license_plate_total/pixelation.jpg" width=260px></td>
+		<td><img src="images/2Dprocessing/license_plate_total/pixelation_extreme.jpg" width=260px></td>
+  	</tr>
+</table>
+
+### Histogram Equalisation
+
+<table>
+  	<tr>
+    	<th>Histogram</th>
+  	</tr>
+  	<tr>
+		<td><img src="images/2Dprocessing/license_plate_total/histogram_equalisation.jpg" width=260px></td>
+  	</tr>
+</table>
+
+### Brightness Variation
+
+<table>
+  	<tr>
+    	<th>Brightness Variation </br> increase (daylight)</th>
+    	<th>Brightness Variation </br> decrease (afternoon & night)</th>
+    	<th>Brightness Variation </br> extreme (very dark night) </br> <b>loss of key features</b></th>
+  	</tr>
+  	<tr>
+		<td><img src="images/2Dprocessing/license_plate_total/brightness_increase.jpg" width=260px></td>
+		<td><img src="images/2Dprocessing/license_plate_total/brightness_decrease.jpg" width=260px></td>
+		<td><img src="images/2Dprocessing/license_plate_total/brightness_extreme.jpg" width=260px></td>
+  	</tr>
+</table>
+
 # Rapid Prototypes of 2D Image Processing
 
 Before directly aimlessly going into coding, it was more targeted to start with applying design engineering agile
