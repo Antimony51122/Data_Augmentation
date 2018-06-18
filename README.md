@@ -29,7 +29,7 @@ Obtaining video that captures that fits the needs for the training set is not si
 - Mere pedestrians
 - Tree branches and barricades presenting
 
-In order to capture as many angles of views as possible, especially the gradual transition from front view to side view, we priorly chose road with round corners due that you cannot place the camera just facing in front of the cars in the middle of the road to shoot for the front. The first we have chosen was a large round corner of a road outside a tunnel exit.
+In order to capture as many angles of views as possible, especially the gradual transition from front view to side view, we priorly chose road with round corners due that you cannot place the camera just facing in front of the cars in the middle of the road to shoot for the front. The first we have chosen was a large round corner of a road outside a tunnel exit. (remind again the following are just photos from my phone only for instruction, screenshots from the real surveillance camera are not allowed to be provided)
 
 <table>
   	<tr>
@@ -39,6 +39,19 @@ In order to capture as many angles of views as possible, especially the gradual 
   	<tr>
     	<td><img src="images/videoData_acquisition/tunnel_exit/tunnel_exit_3people.jpg"></td>
     	<td><img src="images/videoData_acquisition/tunnel_exit/tunnel_exit_3people_labelled.jpg"></td>
+  	</tr>
+</table>
+
+<table>
+  	<tr>
+    	<th>45 degrees side view</th>
+    	<th>60 degrees partial side view</th>
+    	<th>almost front view of a further car</th>
+  	</tr>
+  	<tr>
+    	<td><img src="images/videoData_acquisition/tunnel_exit/1_45degree_sideView.jpg"></td>
+    	<td><img src="images/videoData_acquisition/tunnel_exit/2_60degree_partialSideView.jpg"></td>
+    	<td><img src="images/videoData_acquisition/tunnel_exit/3_almost_frontView.jpg"></td>
   	</tr>
 </table>
 
