@@ -8,7 +8,7 @@
 
 As the idiom says "One can't make bricks without straw". Investigation on image processing algorithms needs image/video data as crude resources. The following session introduces the process we proceeded to capture video sources as dataset for future algorithm tuning.
 
-Obtaining video that captures that fits the needs for the training set is not simply placing a camera alongside the pedestrian and let it record. In order to obtain the video capture that maximises effective data input, trials and adjustments have to be done before figuring out the best shooting angle and height. Besides, even after we have found the appropriate location and wide angle for shooting we acquired for, essential "1 centimetre" micro-adjustments have been proceeded sometimes to find the just adequate position to mitigate an unwanted covering object such as branches of trees or a traffic sign. (Arguing with traffic police is certainly another issue that costs much effort during shootings but this is not within the technical discussions here :) )
+Obtaining video that captures that fits the needs for the training set is not simply placing a camera alongside the pedestrian and let it record. In order to obtain the video capture that maximises effective data input, trials and adjustments have to be done before figuring out the best shooting angle and height. Besides, even after we have found the appropriate location and wide angle for shooting we acquired for, essential "1 centimetre" micro-adjustments have been proceeded sometimes to find the just adequate position to mitigate an unwanted covering object such as branches of trees or a traffic sign. (Arguing with traffic police is certainly another issue that costs much effort during shootings but this is not within the technical discussions here)
 
 <table>
   	<tr>
@@ -29,7 +29,18 @@ Obtaining video that captures that fits the needs for the training set is not si
 - Mere pedestrians
 - Tree branches and barricades presenting
 
-In order to capture as many angles of views as possible, especially the gradual transition from front view to side view, we priorly chose road with round corners due that you cannot place the camera just facing in front of the cars in the middle of the street to 
+In order to capture as many angles of views as possible, especially the gradual transition from front view to side view, we priorly chose road with round corners due that you cannot place the camera just facing in front of the cars in the middle of the road to shoot for the front. The first we have chosen was a large round corner of a road outside a tunnel exit.
+
+<table>
+  	<tr>
+    	<th>Original</th>
+    	<th>Shooting angle outlined</th>
+  	</tr>
+  	<tr>
+    	<td><img src="images/videoData_acquisition/tunnel_exit/tunnel_exit_3people.jpg"></td>
+    	<td><img src="images/videoData_acquisition/tunnel_exit/tunnel_exit_3people_labelled.jpg"></td>
+  	</tr>
+</table>
 
 ## Scene 2: Interception of Tunnel Exit with Urban Traffic Arterial
 
@@ -40,6 +51,8 @@ In order to capture as many angles of views as possible, especially the gradual 
 - All Vehicles presenting
 - Frequent pedestrians
 - Tree branches, Traffic signs and barricades presenting but not covering key information
+
+
 
 ## Scene 3: A bridge in front of the Exit of a Housing Estate
 
