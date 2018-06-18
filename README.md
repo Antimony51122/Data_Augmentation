@@ -115,9 +115,9 @@ On the other hand, originally we might choose a even closer position to capture 
     	<th>Affine Transformation </br> Null pixels filled with black</th>
   	</tr>
   	<tr>
-		<td><img src="images/2Dprocessing/license_plate_total/affine_transformation1.jpg"></td>
-		<td><img src="images/2Dprocessing/license_plate_total/affine_transformation2.jpg"></td>
-		<td><img src="images/2Dprocessing/license_plate_total/affine_transformation3.jpg"></td>
+		<td><img src="images/2Dprocessing/license_plate_total/affine_transformation1.jpg" width=300px></td>
+		<td><img src="images/2Dprocessing/license_plate_total/affine_transformation2.jpg" width=300px></td>
+		<td><img src="images/2Dprocessing/license_plate_total/affine_transformation3.jpg" width=300px></td>
   	</tr>
 </table>
 
