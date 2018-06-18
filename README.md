@@ -106,7 +106,31 @@ On the other hand, originally we might choose a even closer position to capture 
 
 # 2D Image Processing Algorithms
 
+<table>
+  	<tr>
+    	<th>Original License Plate</th>
+  	</tr>
+  	<tr>
+		<td><img src="images/2Dprocessing/license_plate_total/original.jpg" width=260px></td>
+  	</tr>
+</table>
 
+### Motion Blur
+
+<table>
+  	<tr>
+    	<th>Motion Blur </br> size 9</th>
+    	<th>Motion Blur </br> size 11</th>
+    	<th>Motion Blur </br> extreme</th>
+  	</tr>
+  	<tr>
+		<td><img src="images/2Dprocessing/license_plate_total/motion_blur_9.jpg" width=260px></td>
+		<td><img src="images/2Dprocessing/license_plate_total/motion_blur_11.jpg" width=260px></td>
+		<td><img src="images/2Dprocessing/license_plate_total/motion_blur_extreme.jpg" width=260px></td>
+  	</tr>
+</table>
+
+### Reshaping
 
 <table>
   	<tr>
@@ -115,9 +139,9 @@ On the other hand, originally we might choose a even closer position to capture 
     	<th>Affine Transformation </br> Null pixels filled with black</th>
   	</tr>
   	<tr>
-		<td><img src="images/2Dprocessing/license_plate_total/affine_transformation1.jpg" width=300px></td>
-		<td><img src="images/2Dprocessing/license_plate_total/affine_transformation2.jpg" width=300px></td>
-		<td><img src="images/2Dprocessing/license_plate_total/affine_transformation3.jpg" width=300px></td>
+		<td><img src="images/2Dprocessing/license_plate_total/affine_transformation1.jpg" width=260px></td>
+		<td><img src="images/2Dprocessing/license_plate_total/affine_transformation2.jpg" width=260px></td>
+		<td><img src="images/2Dprocessing/license_plate_total/affine_transformation3.jpg" width=260px></td>
   	</tr>
 </table>
 
