@@ -4,6 +4,8 @@
 
 > **IMPORTANT**: mind that most of work I have done during my placement has been specified containing sensitive contents, therefore, after negotiation with the industry tutor, it has been agreed that, project works cannot be shown directly, but, I am allowed to use the same technique learnt from the placement and produce something else that is not straightly related to the interest of the company with providing very little portion of the source code. For the Data Acquisition session, photos of the scenes shown are taken by my phone and my colleagues only for the purpose of explanation of considerations for video capturing, none of the screenshots from the real surveillance camera are allowed to be provided.
 
+</br>
+
 # Data Acquisition
 
 As the idiom says "One can't make bricks without straw". Investigation on image processing algorithms needs image/video data as crude resources. The following session introduces the process we proceeded to capture video sources as dataset for future algorithm tuning.
@@ -18,6 +20,8 @@ Obtaining video that captures that fits the needs for the training set is not si
 		<th><img src="images/videoData_acquisition/renke_adjustCamera.jpg" /></th>
 	</tr>
 </table>
+
+</br>
 
 ## Scene 1: Tunnel Exit
 
@@ -68,6 +72,8 @@ On the other hand, originally we might choose a even closer position to capture 
   	</tr>
 </table>
 
+</br>
+
 ## Scene 2: Interception of Tunnel Exit with Urban Traffic Arterial
 
 
@@ -82,6 +88,8 @@ On the other hand, originally we might choose a even closer position to capture 
 
 
 
+</br>
+
 ## Scene 3: A bridge in front of the Exit of a Housing Estate
 
 ### Main Features:
@@ -91,6 +99,10 @@ On the other hand, originally we might choose a even closer position to capture 
 - Mostly motors and bicycles presenting
 - All kinds of pedestrians
 - Tree branches presenting but not covering key information
+
+
+
+</br>
 
 # Rapid Prototypes of 2D Image Processing
 
@@ -197,3 +209,37 @@ Emboss Algorithm: <https://www.packtpub.com/mapt/book/application_development/97
     	<td><img src="images/2Dprocessing/motion_blur/3_emboss_overlay.png"></td>
   	</tr>
 </table>
+
+</br>
+
+<!-------------------- Motion Blur Session Finished -------------------->
+
+## Pixelation in Photoshop
+
+### Compensation: de-pixelation
+
+> Bicubic Interpolation - Computerphile: <https://www.youtube.com/watch?v=poY_nGzEEWM>
+
+1. --> Image Size (Alt + Ctrl + I) --> Resolution: change the resolution to 300 pixels per inch or higher if you want, then make sure **Bicubic Automatic** option is selected
+2. --> Filter --> Noise --> Reduce Noise --> play around with the settings:
+    
+	- Strength: 10
+    - Preserve Details: 0
+    - Reduce Colour Noise: 86%
+    - Sharpen Details: 52%
+    - tick Remove **JPEG Artifact**
+
+<table>
+  	<tr>
+    	<th>Image with very Low Resolution</th>
+    	<th>Image after De-pixelation</th>
+  	</tr>
+  	<tr>
+    	<td><img src="images/2Dprocessing/de-pixelate/Trump_resLowLow.png" width=500px></td>
+    	<td><img src="images/2Dprocessing/de-pixelate/Trump_resHigh_sharpen.png" width=500px></td>
+  	</tr>
+</table>
+
+<br/>
+
+<!-------------------- Pixelation Session Finished -------------------->

@@ -8,32 +8,7 @@ parent web: <https://plus.google.com/+Hdesigntutorials>
 
 
 
-## How to de-pixelate images in Photoshop
 
-> Bicubic Interpolation - Computerphile: <https://www.youtube.com/watch?v=poY_nGzEEWM>
-
-1. --> Image Size (Alt + Ctrl + I) --> Resolution: change the resolution to 300 pixels per inch or higher if you want, then make sure **Bicubic Automatic** option is selected
-2. --> Filter --> Noise --> Reduce Noise --> play around with the settings:
-    
-	- Strength: 10
-    - Preserve Details: 0
-    - Reduce Colour Noise: 86%
-    - Sharpen Details: 52%
-    - tick Remove **JPEG Artifact**
-
-<table>
-  	<tr>
-    	<th>Image with very Low Resolution</th>
-    	<th>Image after De-pixelation</th>
-  	</tr>
-  	<tr>
-    	<td><img src="images/2Dprocessing/de-pixelate/Trump_resLowLow.png" width=500px></td>
-    	<td><img src="images/2Dprocessing/de-pixelate/Trump_resHigh_sharpen.png" width=500px></td>
-  	</tr>
-</table>
-
-
-<br/>
 
 ## Affine Transformation
 
