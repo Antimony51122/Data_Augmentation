@@ -214,6 +214,72 @@ Emboss Algorithm: <https://www.packtpub.com/mapt/book/application_development/97
 
 <!-------------------- Motion Blur Session Finished -------------------->
 
+## More Sharpening
+
+**"Sharpen More" filter**: old raw command working on low resolution images
+
+**"Unsharp Mask(important)" filter**: old school conventional technique: take the image, blur it then invert it and apply it as a mask of the original image
+
+> - Unsharp Mask is essentially brightening the bright side of and edge, and darkening the dark edge
+> - Thickness of the edge is determined by the **Radius**,
+> - Threshold calms down the sharpening of the noise which is arbitrary variations in neighbouring pixels. Taking the threshold value up will eliminate the sharpening of he noises
+
+- Principle:
+
+	- https://en.wikipedia.org/wiki/Unsharp_masking
+	- https://www.cambridgeincolour.com/tutorials/unsharp-mask.htm
+	- https://docs.gimp.org/en/plug-in-unsharp-mask.html
+
+- Implementation:
+
+	- http://www.cnblogs.com/Imageshop/archive/2013/05/19/3086388.html
+	- https://blog.csdn.net/matrix_space/article/details/78345483 (WITHOUT OpenCV)
+
+- "**Blending sharpening effect**":
+
+	> - For exaggerated Unsharp Mask effects, we get some sort like purple surrounded by yellow, which is due that we are sharpening all three channels
+	> - change the blend mode from normal to luminosity and those edges will disappear, because we are no longer sharpening the colour but just sharpening the details
+	> - ALWAYS using **`amount`** of max 500, blending mode of luminosity and change the opacity of the mask to adjust
+
+- "**Smart Sharpen**":
+
+	> - by comparing with the above sharpening effect, less halos along the edge and less black areas
+	> - Use Gaussian Blur to produce the unsharpening effect
+
+- "**Lens Blur and Reduce Noise**":
+  
+	- Smart Sharpen, Amount 500%; Radius 4.5px; 50% Reduce Noise
+
+	> Gaussian Blur is designed when you down sample an image or working with a scanned photograph, but when working with a digital photograph, Lens Blur is going to produce better, crisper effects.
+
+"**Preventing Shadow/highlight clipping**"(by far best outcome):
+
+- Amount: 500%
+- Radius: 6.0px
+- Reduce Noise: 50%
+
+	**Shadows**:
+
+	- Fade Amount: 10%
+	- Tonal Width: 50%
+	- Radius: 50px
+
+	**Highlights**:
+    
+	- Fade Amount: 10%
+    - Tonal Width: 50%
+    - Radius: 50px
+    
+	"**Sharpening with the High Pass Filter**":
+  
+	> it naturally avoids clipping, which is useful for sharpening portrait shots
+  	
+	> Both High Pass and Unsharp Mask reply on Gaussian Blur to do the sharpening
+  	
+	> give you a more pronounced, colourful effect
+
+</br>
+
 ## Pixelation in Photoshop
 
 ### Compensation: de-pixelation
@@ -243,3 +309,92 @@ Emboss Algorithm: <https://www.packtpub.com/mapt/book/application_development/97
 <br/>
 
 <!-------------------- Pixelation Session Finished -------------------->
+
+## Affine Transformation
+
+#### 1. Lens Correction
+
+1. rename and convert to smart object 
+2. check:
+    - Geometric Distortion
+    - Chromatic Aberration
+    - Vignette
+        > Vignette is darkening around the corners of the image essentially caused by lens element
+        > to get rid of it, that's brighten up the colour
+
+
+
+#### 2. Distortion, Aberration and Vignette
+    
+1. choose `Custom` setting tag of `Lens Correction`
+2. go to upper-left corner of the window, start with the `Remove Distortion Tool`:
+    - dragging outward: add barrel distortion
+    - dragging inward: add pincushioning distortion
+3. play around with the settings in `Chromatic Aberration` and `Vignette`
+
+#### 3. Adjusting Angle and Perspective  
+
+1. navigate to the `Transform` tag, play around with the `Angle`
+2. choose `Move Grid Tool`, change in the bottom, the grid `Color` to make the grid contrastively visible and `Size` to make it align better with the image features.  
+3. go back to the `Transform` tag, play around with the `Horizontal Perspective` and `Vertical Perspective`.
+    
+#### 4.1 Using the Perspective Warp Command
+
+1. set 4 `Guidelines`
+2. go to `Edit`, navigate to `Perspective Warp`
+    
+	- establish a base setting for our boundaries that the vertices should align to the four points you want to use as reference points
+	- click `Enter` entering the edit mode in step 2 to drag and adjust the image
+
+<table>
+  	<tr>
+    	<th>Original Image</th>
+    	<th>Image after Perspective Wrap</th>
+  	</tr>
+  	<tr>
+    	<td><img src="images/2Dprocessing/lens_correction/0_original.png" width=500px></td>
+    	<td><img src="images/2Dprocessing/lens_correction/1_perspective_wrap.png" width=500px></td>
+  	</tr>
+</table>
+       
+#### 4.2 Fine-Tuning the Perspective Adjustment
+
+1. gradually improve the image by playing around the 4 vertices
+2. after the four vertices of the perspective warping box aligned to the 4 boundary vertices, check if there is still geometric distortions by checking whether there are slightly curved lines. Go back to step 1 and adjust the `Geometric Distortion` value for further compensation.
+    
+> Beware that the last step has no preview effect influenced by the later action of perspective warp
+
+<table>
+  	<tr>
+    	<th>Image after Perspective Wrap</th>
+    	<th>Image after Lens Correction (solve fish-eye)</th>
+  	</tr>
+  	<tr>
+    	<td><img src="images/2Dprocessing/lens_correction/1_perspective_wrap.png" width=500px></td>
+    	<td><img src="images/2Dprocessing/lens_correction/2_lens_correction.png" width=500px></td>
+  	</tr>
+</table>
+
+#### 5. Evening out Colour and Lighting
+
+> This section has nothing to do with the `Lens Correction` filter but everything to do with quality image editing.
+
+1. make sure the image layer has been selected and go to the bottom of the image click the first icon and select `Color Overlay`. 
+2. darken the image by navigate to `Layer`, choose `Brightness/Contrast...` 
+    - select the blend mode to `Multiply`
+    - set the `Opacity` to `50%`
+3. choose the layer mask, choose `Brush` and draw on the image's dark spots and lighten them.
+
+<table>
+  	<tr>
+    	<th>Image after Lens Correction</th>
+    	<th>Image after Lens Colour/ Brightness/ Contrast Tuning</th>
+  	</tr>
+  	<tr>
+    	<td><img src="images/2Dprocessing/lens_correction/2_lens_correction.png" width=500px></td>
+    	<td><img src="images/2Dprocessing/lens_correction/3_effects.png" width=500px></td>
+  	</tr>
+</table>
+
+---
+<br/>
