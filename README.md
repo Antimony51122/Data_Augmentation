@@ -563,6 +563,59 @@ The GIFs looking like randomly generated firework are actually following rigorou
   	</tr>
 </table>
 
+The completed project can be found with this link: 
+
 </br>
 
-## 
+## OpenGL Approaches
+
+> IMPORTANT: once again, I am not permitted to show the data set I have augmented for the real training set due to sensitivity reasons. However, I show materials of various texture and surface appearances which can show similar effects. 
+
+### Low lighting intensity: mimicking the appearance in dark night, 
+
+For the first scene, I have placed various models regarding different texture and surface appearances to mimic a range of scenarios:
+
+<table>
+  	<tr>
+    	<th>Camera Movement Forwards and Backwards</th>
+    	<th>Camera Movement left and right</th>
+  	</tr>
+  	<tr>
+    	<td><img src="images/3Dprocessing/gl_scenes/forwards_backwards.gif"></td>
+    	<td><img src="images/3Dprocessing/gl_scenes/left_right.gif"></td>
+  	</tr>
+</table>
+
+- Ceramic Rabbit: a clean pure white surface of that responds to relatively sharper specular lighting.
+- Wood Crate & Barrel: a mixture relatively more dirty turbid colour with a texture that specular lighting contributes to a much lower extent. The diffuse reflection take control of the appearance here.
+- Rusty Metal Robot: metal has a very sharp specular lighting, however the rust makes the surface appearance turbid. Thus the comparing with the pure reflection for the ceramic one, the reflection in this case is a mixture of the light colour and the colour of the surface texture.
+
+<table>
+  	<tr>
+    	<th>Ceramic Rabbbit</th>
+    	<th>Wood Crate</th>
+    	<th>Rusty Metal Robot</th>
+  	</tr>
+  	<tr>
+    	<td><img src="images/3Dprocessing/gl_scenes/rabbit_specular.gif"></td>
+    	<td><img src="images/3Dprocessing/gl_scenes/crate_specular.gif"></td>
+    	<td><img src="images/3Dprocessing/gl_scenes/robot_specular.gif"></td>
+  	</tr>
+</table>
+
+For the environment build up, I setup a relatively darker scene to imitate the late night traffic scene:
+
+- low lighting leads to low diffuse light that comes from scatter and bounce in many directions reaching spots that aren't in its direct vicinity. 
+- a torch light source regarding phong lighting, mimicking the flashlight of surveillance cameras when trying to capture key features from the objective. The angle of the torch light has been set as slightly looking down to imitate the looking down shooting angle of the camera.
+
+<table>
+  	<tr>
+    	<th>Flashing Torchlight focusing on rabbit</th>
+    	<th>Flashing Torchlight on the whole scene</th>
+  	</tr>
+  	<tr>
+    	<td><img src="images/3Dprocessing/gl_scenes/torch_rabbit.gif"></td>
+    	<td><img src="images/3Dprocessing/gl_scenes/torch_whole.gif"></td>
+  	</tr>
+</table>
+
