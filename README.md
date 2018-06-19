@@ -84,6 +84,8 @@ On the other hand, originally we might choose a even closer position to capture 
 - Frequent pedestrians
 - Tree branches, Traffic signs and barricades presenting but not covering key information
 
+For the second scene, we chose the other side of the tunnel, not only due that it is the interception the main arterial 
+
 <table>
   	<tr>
     	<th>Original Photo</th>
@@ -534,3 +536,21 @@ Emboss Algorithm: <https://www.packtpub.com/mapt/book/application_development/97
 
 ---
 <br/>
+
+# 3D Approaches
+
+After the confirmation of applying OpenGL for the next stage of data augmentation works, in order to reinforce my
+C++ skill which I have just scratched the surface in Robotics module and accomplish a higher programming standard, on the other hand, prepare for learning the OpenGL package, I have followed another online tutorial of manipulating linear algebra functions to create a particle fire simulation program in C++. The brought me deeper interpretation in 3D linear space and the actualization via low-level SDL programming.
+
+<table>
+  	<tr>
+    	<th>Beginning, particles gradually grow</th>
+    	<th>Big Contrast Tone Change</th>
+    	<th>Ending, particles gradually fade out</th>
+  	</tr>
+  	<tr>
+    	<td><img src="images/3Dprocessing/fire_particles/beginning_402px.gif" ></td>
+    	<td><img src="images/3Dprocessing/fire_particles/tone_change_402px.gif"></td>
+    	<td><img src="images/3Dprocessing/fire_particles/ending_402px.gif"></td>
+  	</tr>
+</table>
