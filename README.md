@@ -664,6 +664,17 @@ For the environment build up, I setup a relatively darker scene to imitate the l
   	</tr>
 </table>
 
+Investigation of Shadows:
+
+<table>
+  	<tr>
+    	<th>Directional Shadwo</th>
+  	</tr>
+  	<tr>
+    	<td><img src="images/3Dprocessing/gl_scenes/helicopter_shadow.gif"></td>
+  	</tr>
+</table>
+
 </br>
 
 
