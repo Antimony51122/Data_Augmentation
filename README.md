@@ -635,6 +635,19 @@ For the first scene, I have placed various models regarding different texture an
 - Wood Crate & Barrel: a mixture relatively more dirty turbid colour with a texture that specular lighting contributes to a much lower extent. The diffuse reflection take control of the appearance here.
 - Rusty Metal Robot: metal has a very sharp specular lighting, however the rust makes the surface appearance turbid. Thus the comparing with the pure reflection for the ceramic one, the reflection in this case is a mixture of the light colour and the colour of the surface texture.
 
+**Firstly Let's have a clear look at the models under a directional lighting (sunlight for instance)**
+
+<table>
+  	<tr>
+    	<th>Directional Shadwo</th>
+  	</tr>
+  	<tr>
+    	<td><img src="images/3Dprocessing/gl_scenes/dirLight.png"></td>
+  	</tr>
+</table>
+
+**Appearance under dark night**
+
 <table>
   	<tr>
     	<th>Ceramic Rabbbit</th>
