@@ -707,10 +707,26 @@ From the second GIF, we can perceive yellow reflections orienting towards differ
 
 </br>
 
-
 # 2D to 3D Reconstruction
 
-check the project github: https://github.com/AaronJackson/vrn
+Firstly, let's look at how lighting might affect the facial contour perception: 
+
+<table>
+  	<tr>
+    	<th>whirling light source</th>
+    	<th>whirling light source with tone change</th>
+    	<th>Swing light source</th>
+  	</tr>
+  	<tr>
+    	<td><img src="images/3Dprocessing/2D_to_3D/lady_green.gif"></td>
+    	<td><img src="images/3Dprocessing/2D_to_3D/lady_purple.gif"></td>
+    	<td width=27%><img src="images/3Dprocessing/2D_to_3D/man_swing_brown.gif" height=165px></td>
+  	</tr>
+</table>
+
+Unlike license plates, or even car body, human face is of a much more complicated shape that cannot be reconstructed with simple geometrical shapes. However, by utilising deep learning, a program that reconstruct human faces from 2D images to form 3D models that based on mapping human face to a series of simplified common facial models by anchor point recognition algorithms has been developed.
+
+> check the project github: https://github.com/AaronJackson/vrn
 
 <table>
   	<tr>
