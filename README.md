@@ -114,6 +114,31 @@ As you can perceive from the image captures, under back lighting conditions, the
   	</tr>
 </table>
 
+**Various view angles of a same car**
+
+<table>
+  	<tr>
+    	<th>Far</th>
+    	<th>Front View</th>
+    	<th>45 Degrees Side View</th>
+    	<th>Side View</th>
+  	</tr>
+  	<tr>
+		<td>
+			<img src="images/videoData_acquisition/interception_back-light/turning2.jpg">
+		</td>
+		<td>
+			<img src="images/videoData_acquisition/interception_back-light/turning3.jpg">
+		</td>
+		<td>
+			<img src="images/videoData_acquisition/interception_back-light/turning4.jpg">
+		</td>
+		<td>
+			<img src="images/videoData_acquisition/interception_back-light/turning5.jpg">
+		</td>
+  	</tr>
+</table>
+
 </br>
 
 ## Scene 3: A bridge in front of the Exit of a Housing Estate
@@ -126,7 +151,24 @@ As you can perceive from the image captures, under back lighting conditions, the
 - All kinds of pedestrians
 - Tree branches presenting but not covering key information
 
+**Various view angles of a same car, differently, this time capturing the back views**
 
+<table>
+  	<tr>
+    	<th>Side View, Partcially Shown</th>
+    	<th>75 Deggree Side View, Full Car</th>
+    	<th>60 Degrees Side View</th>
+    	<th>45 Degrees Side View</th>
+    	<th>Back View</th>
+  	</tr>
+  	<tr>
+		<td><img src="images/videoData_acquisition/bridge/turning1.jpg"></td>
+		<td><img src="images/videoData_acquisition/bridge/turning2.jpg"></td>
+		<td><img src="images/videoData_acquisition/bridge/turning3.jpg"></td>
+		<td><img src="images/videoData_acquisition/bridge/turning4.jpg"></td>
+		<td><img src="images/videoData_acquisition/bridge/turning5.jpg"></td>
+  	</tr>
+</table>
 
 </br>
 
