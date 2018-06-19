@@ -608,7 +608,7 @@ The GIFs looking like randomly generated firework are actually following rigorou
   	</tr>
 </table>
 
-The completed project can be found with this link: 
+The completed project can be found with this link: [https://github.com/Antimony51122/CPP/tree/master/Udemy_Fundamental_Tutorials/chap08_particle_fire_simulation_project](https://github.com/Antimony51122/CPP/tree/master/Udemy_Fundamental_Tutorials/chap08_particle_fire_simulation_project)
 
 </br>
 
@@ -687,6 +687,23 @@ Investigation of Shadows:
     	<td><img src="images/3Dprocessing/gl_scenes/helicopter_shadow.gif"></td>
   	</tr>
 </table>
+
+### Moving Point Light Source (Coloured)
+
+<table>
+  	<tr>
+    	<th>Moving Point Lighting</th>
+    	<th>Yellow Reflection of Point Lighting on the Rabbit</th>
+  	</tr>
+  	<tr>
+    	<td><img src="images/3Dprocessing/gl_scenes/moving_point_lighting.gif"></td>
+    	<td><img src="images/3Dprocessing/gl_scenes/rabbit_yellow_reflection.gif"></td>
+  	</tr>
+</table>
+
+As perceived from the first GIF, the reflection of specular light is a property of the material on the model object, the if we specify the colour (yellow, in this case), we can see yellow reflections mixing with the object's original colour being shown.
+
+From the second GIF, we can perceive yellow reflections orienting towards different angle due to the shoot in angle of the light from the point light. 
 
 </br>
 
