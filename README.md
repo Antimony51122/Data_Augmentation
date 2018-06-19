@@ -539,6 +539,8 @@ Emboss Algorithm: <https://www.packtpub.com/mapt/book/application_development/97
 
 # 3D Approaches
 
+## Fire Particles Simulations
+
 After the confirmation of applying OpenGL for the next stage of data augmentation works, in order to reinforce my
 C++ skill which I have just scratched the surface in Robotics module and accomplish a higher programming standard, on the other hand, prepare for learning the OpenGL package, I have followed another online tutorial of manipulating linear algebra functions to create a particle fire simulation program in C++. The brought me deeper interpretation in 3D linear space and the actualization via low-level SDL programming.
 
