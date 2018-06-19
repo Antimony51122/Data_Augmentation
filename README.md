@@ -84,7 +84,7 @@ On the other hand, originally we might choose a even closer position to capture 
 - Frequent pedestrians
 - Tree branches, Traffic signs and barricades presenting but not covering key information
 
-For the second scene, we chose the other side of the tunnel, not only due that it is the interception the main arterial 
+For the second scene, we chose the other side of the tunnel, not only due that it is the interception the main  arterial thus we can maximise the ID of the cars in traffic flow, but also because of the back-lighting due to strong sunlight that provided us more choices of perspectives of studies of lighting. 
 
 <table>
   	<tr>
@@ -96,6 +96,9 @@ For the second scene, we chose the other side of the tunnel, not only due that i
 		</td>
 	</tr>
 </table>
+
+As you can perceive from the image captures, under back lighting conditions, the car shows a thin layer of reflection of lighting on the contours frames leaving the main car body in contrasting darker shades. Which appears vastly different from the front lighting cases. Wide span of view provides us a views that contains a wide range of car IDs that is beneficial for the training algorithm developments.
+
 <table>
   	<tr>
     	<th>View Span Outlined</th>
@@ -586,7 +589,7 @@ For the first scene, I have placed various models regarding different texture an
   	</tr>
 </table>
 
-- Ceramic Rabbit: a clean pure white surface of that responds to relatively sharper specular lighting.
+- Ceramic Rabbit: a clean pure white surface of that responds to relatively sharper specular lighting. shiny spot towards the camera corresponding to the shooting angle of the specular light
 - Wood Crate & Barrel: a mixture relatively more dirty turbid colour with a texture that specular lighting contributes to a much lower extent. The diffuse reflection take control of the appearance here.
 - Rusty Metal Robot: metal has a very sharp specular lighting, however the rust makes the surface appearance turbid. Thus the comparing with the pure reflection for the ceramic one, the reflection in this case is a mixture of the light colour and the colour of the surface texture.
 
@@ -618,4 +621,7 @@ For the environment build up, I setup a relatively darker scene to imitate the l
     	<td><img src="images/3Dprocessing/gl_scenes/torch_whole.gif"></td>
   	</tr>
 </table>
+
+</br>
+
 
