@@ -539,10 +539,16 @@ Emboss Algorithm: <https://www.packtpub.com/mapt/book/application_development/97
 
 # 3D Approaches
 
-## Fire Particles Simulations
+## Firework Particles Simulations
 
 After the confirmation of applying OpenGL for the next stage of data augmentation works, in order to reinforce my
-C++ skill which I have just scratched the surface in Robotics module and accomplish a higher programming standard, on the other hand, prepare for learning the OpenGL package, I have followed another online tutorial of manipulating linear algebra functions to create a particle fire simulation program in C++. The brought me deeper interpretation in 3D linear space and the actualization via low-level SDL programming.
+C++ skill which I have just scratched the surface in Robotics module and accomplish a higher programming standard, on the other hand, prepare for learning the OpenGL package, I have followed another online tutorial of manipulating linear algebra functions to create a particle fire simulation program in C++. The brought me deeper interpretation in 3D linear space and the actualisation via low-level SDL programming.
+
+The GIFs looking like randomly generated firework are actually following rigorous and precise functions that based on 3D linear transformations and time. 
+
+- Definition of boundary conditions let enables the particles to bound back when colliding with the frame wall of the window. 
+- The colour is a 4-dimension vector consists of RGB and opacity
+- The smoothing effect is created by applying instant gaussian blur of 3 x 3 kernel on particles.
 
 <table>
   	<tr>
@@ -551,8 +557,12 @@ C++ skill which I have just scratched the surface in Robotics module and accompl
     	<th>Ending, particles gradually fade out</th>
   	</tr>
   	<tr>
-    	<td><img src="images/3Dprocessing/fire_particles/beginning_402px.gif" ></td>
+    	<td><img src="images/3Dprocessing/fire_particles/beginning_402px.gif"></td>
     	<td><img src="images/3Dprocessing/fire_particles/tone_change_402px.gif"></td>
     	<td><img src="images/3Dprocessing/fire_particles/ending_402px.gif"></td>
   	</tr>
 </table>
+
+</br>
+
+## 
