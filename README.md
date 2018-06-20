@@ -581,6 +581,8 @@ Emboss Algorithm: <https://www.packtpub.com/mapt/book/application_development/97
   	</tr>
 </table>
 
+## Facial Landmark Manipulations
+
 ---
 <br/>
 
@@ -641,7 +643,7 @@ For the first scene, I have placed various models regarding different texture an
 
 <table>
   	<tr>
-    	<th>Directional Shadwo</th>
+    	<th>Directional Shadow</th>
   	</tr>
   	<tr>
     	<td><img src="images/3Dprocessing/gl_scenes/dirLight.png"></td>
@@ -683,7 +685,7 @@ Investigation of Shadows:
 
 <table>
   	<tr>
-    	<th>Directional Shadwo</th>
+    	<th>Directional Shadow</th>
   	</tr>
   	<tr>
     	<td><img src="images/3Dprocessing/gl_scenes/helicopter_shadow.gif"></td>
@@ -740,3 +742,7 @@ Unlike license plates, or even car body, human face is of a much more complicate
     	<td><img src="images/3Dprocessing/2D_to_3D/curie.gif"></td>
   	</tr>
 </table>
+
+## Rapid Prototyping using Ae on Depth Image
+
+From the Robotics Module, we have scratched the surface of depth image using KINECT depth camera. The outcome is mapping of numbers from 0 to 1 indicating the how far a certain pixel is from the camera. Being inspired by the knowledge about how to demonstrate depth information, I decided to prototype through Ae utilising the depth perception technology. 
