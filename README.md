@@ -750,3 +750,23 @@ Unlike license plates, or even car body, human face is of a much more complicate
 From the Robotics Module, we have scratched the surface of depth image using KINECT depth camera. The outcome is mapping of numbers from 0 to 1 indicating the how far a certain pixel is from the camera. Being inspired by the knowledge about how to demonstrate depth information, I decided to prototype through Ae utilising the depth perception technology. 
 
 > Instead of making up some features when reconstructing 3D facial models, the prototype doesn't create any new information. It only extracts existing information and create the 3D effect by emphasising on some features while suppressing the others. 
+
+<table>
+  	<tr>
+    	<th>Exaggerated Prototype before Moderation</th>
+    	<th>Mapping Facial Features onto Depth Map</th>
+  	</tr>
+  	<tr>
+    	<td><img src="images/3Dprocessing/Ae_proto/lincoln_AeUI.gif"></td>
+    	<td><img src="images/3Dprocessing/Ae_proto/lincoln_depth.gif"></td>
+  	</tr>
+</table>
+
+<table>
+  	<tr>
+    	<th>Final Output</th>
+  	</tr>
+  	<tr>
+    	<td><img src="images/3Dprocessing/Ae_proto/lincoln_main.gif"></td>
+  	</tr>
+</table>
