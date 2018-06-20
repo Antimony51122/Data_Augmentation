@@ -583,6 +583,8 @@ Emboss Algorithm: <https://www.packtpub.com/mapt/book/application_development/97
 
 ## Facial Landmark Manipulations
 
+
+
 ---
 <br/>
 
@@ -713,7 +715,7 @@ From the second GIF, we can perceive yellow reflections orienting towards differ
 
 # 2D to 3D Reconstruction
 
-Firstly, let's look at how lighting might affect the facial contour perception: 
+Firstly, let's look at how lighting might affect the facial contour perception: the recognition of facial features is based on the contours, however, contour isn't an abstract thing, instead, it can be defined as the contrast between brightness and colour features that we perceive to build the "edges" on faces. Therefore, as shown in below GIFs changing the light direction might vastly change the contour features hence the facial looking.
 
 <table>
   	<tr>
@@ -746,3 +748,5 @@ Unlike license plates, or even car body, human face is of a much more complicate
 ## Rapid Prototyping using Ae on Depth Image
 
 From the Robotics Module, we have scratched the surface of depth image using KINECT depth camera. The outcome is mapping of numbers from 0 to 1 indicating the how far a certain pixel is from the camera. Being inspired by the knowledge about how to demonstrate depth information, I decided to prototype through Ae utilising the depth perception technology. 
+
+> Instead of making up some features when reconstructing 3D facial models, the prototype doesn't create any new information. It only extracts existing information and create the 3D effect by emphasising on some features while suppressing the others. 
