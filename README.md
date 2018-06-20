@@ -151,6 +151,8 @@ As you can perceive from the image captures, under back lighting conditions, the
 - All kinds of pedestrians
 - Tree branches presenting but not covering key information
 
+The last scene shown is of a more complicated combination of elements, involved not only cars but also variety of pedestrians and motorcyclers. Thus multiple algorithms have to be performed on the same imaging. 
+
 **Various view angles of a same car, differently, this time capturing the back views**
 
 <table>
