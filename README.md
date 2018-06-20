@@ -583,9 +583,37 @@ Emboss Algorithm: <https://www.packtpub.com/mapt/book/application_development/97
 
 ## Facial Landmark Manipulations
 
+<img src="images/2Dprocessing/face_swap/algorithm1.png" width=100%>
+<img src="images/2Dprocessing/face_swap/algorithm2.png" width=100%>
+
+### Facial Landmark Detection
 
 
----
+
+<table>
+  	<tr>
+    	<th>Facial Landmark Detection on Obama</th>
+  	</tr>
+  	<tr>
+    	<td><img src="images/2Dprocessing/face_swap/Obama_with_landmarks.jpg"></td>
+  	</tr>
+</table>
+
+### Facial Swap according to Landmark Detection
+
+A little fun has been created using the facial landmark detection algorithms. 
+
+<table>
+  	<tr>
+    	<th>Face Swap on Trump and Hillary (Creepy)</th>
+  	</tr>
+  	<tr>
+    	<td><img src="images/2Dprocessing/face_swap/faceswap_trump_hilliary.jpg"></td>
+  	</tr>
+</table>
+
+> From this little fun here we can see the drawbacks of facial landmark detection algorithms that it works only fine with front view. As long as there is tilting, the algorithm starts to messing about. Therefore, 2D to 3D approaches will be needed. (shown in latter section)
+
 <br/>
 
 # 3D Approaches
