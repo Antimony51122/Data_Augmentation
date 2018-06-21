@@ -608,7 +608,8 @@ A little fun has been created using the facial landmark detection algorithms.
     	<th>Face Swap on Trump and Hillary (Creepy)</th>
   	</tr>
   	<tr>
-    	<td><img src="images/2Dprocessing/face_swap/faceswap_trump_hilliary.jpg"></td>
+    	<td><img src="images/2Dprocessing/face_swap/faceswap_trump_hilliary.JPG"></td>
+		<!---------- be careful the source of the image has .JPG as format, it might still show in the markdown editor, but the github page is case sensitive and will return 404 on the image ---------->
   	</tr>
 </table>
 
