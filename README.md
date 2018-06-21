@@ -711,7 +711,7 @@ For the environment build up, I setup a relatively darker scene to imitate the l
   	</tr>
 </table>
 
-Investigation of Shadows:
+Investigation of Shadows: 
 
 <table>
   	<tr>
@@ -735,9 +735,9 @@ Investigation of Shadows:
   	</tr>
 </table>
 
-As perceived from the first GIF, the reflection of specular light is a property of the material on the model object, the if we specify the colour (yellow, in this case), we can see yellow reflections mixing with the object's original colour being shown.
+> As perceived from the first GIF, the reflection of specular light is a property of the material on the model object, the if we specify the colour (yellow, in this case), we can see yellow reflections mixing with the object's original colour being shown.
 
-From the second GIF, we can perceive yellow reflections orienting towards different angle due to the shoot in angle of the light from the point light. 
+> From the second GIF, we can perceive yellow reflections orienting towards different angle due to the shoot in angle of the light from the point light. 
 
 </br>
 
@@ -764,12 +764,12 @@ Unlike license plates, or even car body, human face is of a much more complicate
 
 <table>
   	<tr>
-    	<th>Obama</th>
-    	<th>Curie</th>
-  	</tr>
-  	<tr>
     	<td><img src="images/3Dprocessing/2D_to_3D/obama.gif"></td>
     	<td><img src="images/3Dprocessing/2D_to_3D/curie.gif"></td>
+  	</tr>
+  	<tr>
+    	<th>Obama</th>
+    	<th>Curie</th>
   	</tr>
 </table>
 
