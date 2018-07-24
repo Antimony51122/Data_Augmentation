@@ -1,6 +1,6 @@
 > make a Gantt chart for final report
 
-##### ***Week 9 (09/Jun - 15/Jun)*** 
+##### *Week 9 (09/Jun - 15/Jun)*
 
 #### Interim Report
 
@@ -10,7 +10,7 @@
 
 
 
-##### ***Week 10 (16/Jun - 22/Jun) <br/> Week 11 (23/Jun - 29/Jun)***
+##### *Week 10 (16/Jun - 22/Jun) <br/> Week 11 (23/Jun - 29/Jun)*
 
 #### Advanced OpenGL
 
@@ -27,7 +27,7 @@
 
 
 
-##### ***Week 12 (30/Jun - 06/Jul) <br/> Week 13 (07/Jul - 13/Jul) <br/> Week 14 (14/Jul - 20/Jul) <br/> Week 15 (21/Jul - 27/Jul)***
+##### *Week 12 (30/Jun - 06/Jul) <br/> Week 13 (07/Jul - 13/Jul) <br/> Week 14 (14/Jul - 20/Jul) <br/> Week 15 (21/Jul - 27/Jul)*
 
 #### Boost Python
 
