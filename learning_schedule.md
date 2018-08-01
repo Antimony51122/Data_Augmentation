@@ -65,3 +65,18 @@ Week-23 (15/Sep - 21/Sep)
 Week-24 (22/Sep - 28/Sep + 29/Sep(contract end date))
 
 <!--------------------------------------------- week 24 -------------------------------------------------->
+
+
+
+
+
+
+# Next Step:
+
+## OpenGL:
+
+- **Sky Box Background Scene Reconstruction**
+
+## GIMP?
+
+- **Plug-in / Fu-Script Writing**
