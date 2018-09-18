@@ -80,3 +80,14 @@ Week-24 (22/Sep - 28/Sep + 29/Sep(contract end date))
 ## GIMP?
 
 - **Plug-in / Fu-Script Writing**
+
+
+
+
+
+inspirations:
+
+researches: ways that don't work:
+
+unity-plugin
+
