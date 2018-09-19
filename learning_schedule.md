@@ -1,4 +1,4 @@
-> make a Gantt chart for final report
+> # make a Gantt chart for final report !!!
 
 ##### *Week 9 (09/Jun - 15/Jun)*
 
@@ -55,6 +55,10 @@
 ##### *Week 19 (18/Aug - 24/Aug)*
 
 ##### *Week 20 (25/Aug - 31/Aug)*
+
+- learning software rendering
+- **mesa** packages
+- **llvm**
 
 ##### Week-21 (01/Sep - 07/Sep)
 
