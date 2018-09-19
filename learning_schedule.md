@@ -56,9 +56,11 @@
 
 ##### *Week 20 (25/Aug - 31/Aug)*
 
-Week-21 (01/Sep - 07/Sep)
+##### Week-21 (01/Sep - 07/Sep)
 
-Week-22 (08/Sep - 14/Sep)
+##### Week-22 (08/Sep - 14/Sep)
+
+learning **Cmake**, compiling own algorithms
 
 Week-23 (15/Sep - 21/Sep)
 
