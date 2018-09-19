@@ -99,6 +99,11 @@ Week-24 (22/Sep - 28/Sep + 29/Sep(contract end date))
 - linear
 - anisotropic 
 
+### c++ multi-threading
+
+- https://solarianprogrammer.com/2011/12/16/cpp-11-thread-tutorial/
+- http://www.runoob.com/cplusplus/cpp-multithreading.html
+
 ## researches: ways that don't work:
 
 ### unity-plugin
