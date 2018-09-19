@@ -85,9 +85,14 @@ Week-24 (22/Sep - 28/Sep + 29/Sep(contract end date))
 
 
 
-inspirations:
+## inspirations:
 
-researches: ways that don't work:
+### filtering & mip-mapping
 
-unity-plugin
+- nearest
+- linear
+- anisotropic 
 
+## researches: ways that don't work:
+
+### unity-plugin
