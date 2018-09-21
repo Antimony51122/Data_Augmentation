@@ -118,3 +118,7 @@ Week-24 (22/Sep - 28/Sep + 29/Sep(contract end date))
 
 ### unity-plugin
 
+
+## future: room for optimisation:
+
+### shaders --> optimise vertex shader
