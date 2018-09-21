@@ -1,4 +1,4 @@
-> # make a Gantt chart for final report !!!
+> # make a Gantt chart for final report !!! (even from the first week)
 
 ##### *Week 9 (09/Jun - 15/Jun)*
 
@@ -93,11 +93,20 @@ Week-24 (22/Sep - 28/Sep + 29/Sep(contract end date))
 
 ## inspirations:
 
-### Depth Mapping method, why Bu_Kao_Pu?!
+### Depth Mapping method, why Bu\_Kao\_Pu?!
 
 ### OpenGL speed vs. OpenCV speed in large bulk rendering
 
 ### off-screen rendering
+
+### c++ multi-threading
+
+- https://solarianprogrammer.com/2011/12/16/cpp-11-thread-tutorial/
+- http://www.runoob.com/cplusplus/cpp-multithreading.html
+
+### python script executing terminal commands with CPU multi-threading 
+
+## algorithm-wisely
 
 ### filtering & mip-mapping
 
@@ -105,11 +114,7 @@ Week-24 (22/Sep - 28/Sep + 29/Sep(contract end date))
 - linear
 - anisotropic 
 
-### c++ multi-threading
-
-- https://solarianprogrammer.com/2011/12/16/cpp-11-thread-tutorial/
-- http://www.runoob.com/cplusplus/cpp-multithreading.html
-
 ## researches: ways that don't work:
 
 ### unity-plugin
+
