@@ -93,6 +93,12 @@ Week-24 (22/Sep - 28/Sep + 29/Sep(contract end date))
 
 ## inspirations:
 
+### Depth Mapping method, why Bu_Kao_Pu?!
+
+### OpenGL speed vs. OpenCV speed in large bulk rendering
+
+### off-screen rendering
+
 ### filtering & mip-mapping
 
 - nearest
