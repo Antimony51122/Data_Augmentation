@@ -122,3 +122,11 @@ Week-24 (22/Sep - 28/Sep + 29/Sep(contract end date))
 ## future: room for optimisation:
 
 ### shaders --> optimise vertex shader
+
+
+
+</br>
+
+---
+
+### let the world recognise us
