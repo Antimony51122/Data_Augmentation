@@ -104,7 +104,9 @@ Week-24 (22/Sep - 28/Sep + 29/Sep(contract end date))
 - https://solarianprogrammer.com/2011/12/16/cpp-11-thread-tutorial/
 - http://www.runoob.com/cplusplus/cpp-multithreading.html
 
-### python script executing terminal commands with CPU multi-threading 
+### python script executing terminal commands with CPU multi-processing
+
+### traverse files in a directory
 
 ## algorithm-wisely
 
@@ -122,6 +124,8 @@ Week-24 (22/Sep - 28/Sep + 29/Sep(contract end date))
 ## future: room for optimisation:
 
 ### shaders --> optimise vertex shader
+
+
 
 
 
