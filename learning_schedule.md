@@ -129,8 +129,11 @@ Week-24 (22/Sep - 28/Sep + 29/Sep(contract end date))
 
 
 
+### cover: glasses, mouth-mask
+
 </br>
 
 ---
 
 ### let the world recognise us
+
