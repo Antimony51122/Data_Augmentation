@@ -1,5 +1,13 @@
 > # make a Gantt chart for final report !!! (even from the first week)
 
+make Gantt chart with colour specifications according to:
+
+- Prototyping tools 
+- Linux shell Environment & Docker Usage
+- Programming fundamentals
+- Algorithm Developments
+- 
+
 ##### *Week 9 (09/Jun - 15/Jun)*
 
 #### Interim Report
