@@ -167,3 +167,7 @@ The last scene shown is of a more complicated combination of elements, involved 
 		<td><img src="bridge/turning5.jpg"></td>
   	</tr>
 </table>
+
+## Scene 4: Huawei Campus Day/Night Comparison
+
+### Main Features: 
