@@ -4,8 +4,6 @@
 
 </br>
 
-# Data Acquisition
-
 As the idiom says "One can't make bricks without straw". Investigation on image processing algorithms needs image/video data as crude resources. The following session introduces the process we proceeded to capture video sources as dataset for future algorithm tuning.
 
 Obtaining video that captures that fits the needs for the training set is not simply placing a camera alongside the pedestrian and let it record. In order to obtain the video capture that maximises effective data input, trials and adjustments have to be done before figuring out the best shooting angle and height. Besides, even after we have found the appropriate location and wide angle for shooting we acquired for, essential "1 centimetre" micro-adjustments have been proceeded sometimes to find the just adequate position to mitigate an unwanted covering object such as branches of trees or a traffic sign. (Arguing with traffic police is certainly another issue that costs much effort during shootings but this is not within the technical discussions here)
@@ -39,8 +37,8 @@ In order to capture as many angles of views as possible, especially the gradual 
     	<th>Shooting angle outlined</th>
   	</tr>
   	<tr>
-    	<td><img src="videoData_acquisition/tunnel_exit/tunnel_exit_3people.jpg"></td>
-    	<td><img src="videoData_acquisition/tunnel_exit/tunnel_exit_3people_labelled.jpg"></td>
+    	<td><img src="tunnel_exit/tunnel_exit_3people.jpg"></td>
+    	<td><img src="tunnel_exit/tunnel_exit_3people_labelled.jpg"></td>
   	</tr>
 </table>
 
