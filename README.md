@@ -16,7 +16,7 @@ In order to let the AI rapidly learn and pursue identity recognition, it is comm
 
 However, on the other hand, the project is to some extent hovering on the brink of touching the public privacy grey area due that the raw data collection involves camera-shooting captures of ordinary citizens’ faces under various circumstances and match it with the limited ID pictures police has provided. The constraints in raw data acquisition have a huge negative impact in the convergence of learning of AI thus data augmentation, which is the part I am taking charge of, where varying the key information while reserving the ID of datasets will play an important role in widening the diversity of the dataset. 
 
-This inspires the idea that rather than starting with an extremely large corpus of unstructured, unfiltered and unlabelled data (e.g. copied directly from webpages) that contains many errors, it would be more effective if we take a small, curated corpus of structured data and augment in a way that increases the performance of models trained on it. The procedure can be specified as following steps below:
+This inspires the idea that rather than starting with an extremely large corpus of unstructured, unfiltered and unlabeled data (e.g. copied directly from web-pages) that contains many errors, it would be more effective if we take a small, curated corpus of structured data and augment in a way that increases the performance of models trained on it. The procedure can be specified as following steps below:
 
 - [Video Data Acquisition](./src/videoData_acquisition/README.md)
 - [2D Image Processing Approaches](./src/2Dprocessing/README.md)
