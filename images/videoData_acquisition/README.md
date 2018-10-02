@@ -180,6 +180,8 @@ The last scene shown is of a more complicated combination of elements, involved 
 
 A set of surveillance cameras have been placed on the way from the office building to the canteen to get a 360 full-range view of the path and environment around.
 
+#### During the Day
+
 <table>
   	<tr>
     	<th>On the way towards the Canteen</th>
@@ -189,7 +191,8 @@ A set of surveillance cameras have been placed on the way from the office buildi
 		<td><img src="campus_day_night/day_towardsCateen.jpg"></td>
 		<td><img src="campus_day_night/day_towardsCateen_label.jpg"></td>
   	</tr>
-
+</table>
+<table>
   	<tr>
     	<th>On the way towards the Office building from the Canteen</th>
     	<th>with label box</th>
@@ -204,3 +207,19 @@ A set of surveillance cameras have been placed on the way from the office buildi
 
 > There good point of the design is that people going to canteen will normally be back within 20mins so the sunlight doesn't change much within that period of time, and by shooting from opposite angles, we might promptly capture the facial expressions when the sunlight is on the right side of the face against left side of the face.
 
+#### During the Night
+
+<table>
+  	<tr>
+    	<th>On the way towards the Office building from the Canteen</th>
+    	<th>On the way towards the Canteen (Night)</th>
+    	<th>On the way towards the Canteen (Night) with label</th>
+  	</tr>
+  	<tr>
+		<td><img src="campus_day_night/day_towardsCateen.jpg"></td>
+		<td><img src="campus_day_night/day_towardsCateen_label.jpg"></td>
+		<td><img src="campus_day_night/day_towardsOffice_label.jpg"></td>
+  	</tr>
+
+  	</tr>
+</table>
