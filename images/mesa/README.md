@@ -400,7 +400,18 @@ OpenGL ES profile shading language version string: OpenGL ES GLSL ES 3.00
 OpenGL ES profile extensions:
 ```
 
-left the `llvmpipe`(LLVM 3.8) problem unsolved
+<table>
+  	<tr>
+    	<th>Before exporting path variable </br> autoconf compilation </th>
+    	<th>After exporting path variable </br> scons compilatino </th>
+  	</tr>
+  	<tr>
+    	<td><img src="console_screenshots/autoconf_compile.png"></td>
+    	<td><img src="console_screenshots/scons_compile.png"></td>
+  	</tr>
+</table>
+
+> Ubuntu 16.04 OpenGL environment constructed, left the `llvmpipe`(LLVM 3.8) problem untackled.
 
 
 
