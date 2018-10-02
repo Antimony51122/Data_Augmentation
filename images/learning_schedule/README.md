@@ -16,15 +16,16 @@ Knowledge and Hard Skills Learning Progressions
 
 ## Algorithm-wise:
 
-- Interpretation in Neural Networks: 
+- ### Interpretation in Neural Networks: 
 
 	***Month-2 (01/May – 31/May) ~ Month-6 (01/Sept – 29/Sept)***
 
 	Monthly course-meetings provided by the department where the advanced programmers talk about the forefront topics in AI neural networks and their previous achievements utilising these technologies and how to apply them to the current projects. These courses have boosted my learning progress and granted me with inspirations in interpretations in semantic segmentations, ReID, mutual learning and etc. this course vastly deepened my understandings in how my work will benefit the AI in facial recognition.
 
-- ###Imaging Theory & Reducing Complexity:
+- ### Imaging Theory & Reducing Complexity:
  
-	***Stage 1: Week-06 (19/May – 25/May) ~ Week-08 (02/Jun – 08/Jun) </br> Stage 2: Week-21 (01/Sept – 07/Sept) ~ Week-24 (22/Sept – 28/Sept + 29/Sept (contract end date))***
+	***Stage 1: Week-06 (19/May – 25/May) ~ Week-08 (02/Jun – 08/Jun) </br> 
+	   Stage 2: Week-21 (01/Sept – 07/Sept) ~ Week-24 (22/Sept – 28/Sept + 29/Sept (contract end date))***
 
 	During stage 1, I followed online tutorials and applied the knowledge inherited from DE3 robotics module to acquire sufficient understanding of how translation and rotation matrices manipulate the camera view coordinate systems. In addition, I looked into the physics theories about the effect of focus and ambient, diffuse and specular lighting on the objects and materials and applied the equations to create vivid Phong lighting effects.
 	
@@ -34,11 +35,36 @@ Knowledge and Hard Skills Learning Progressions
 
 </br>
 
-## Algorithm-wise:
+## Programming-wise:
 
-- Interpretation in Neural Networks: 
+- ### Environment construction: 
 
-	***Month-2 (01/May – 31/May) ~ Month-6 (01/Sept – 29/Sept)***
+	***Stage 1: Week-01 (17/Apr – 22/Apr) </br>
+	   Stage 2: Week-19 (18/Aug – 24/Aug) ~ Week-21 (01/Sept – 07/sept)***
+
+	During stage 1: through the training from the technician, I have been granted the knowledge of Linux shell structure such as PATH variables exporting. A fully detailed documentation about Dockers and version controls has also been provided by the technician in order to help new employees quickly forge themselves into the industry standard programming mode.
+
+	During stage 2: due to lacking GPU rendering power, I investigated online about software rendering. With the instruction from the technician, I have gained the knowledge of Mesa package, LLVM software rendering pipeline with SCon compilation and obtained a very detailed instruction noting the ways tackling all compilation conflicts during construction of software render environment. Other than that, I learned writing Cmakefiles from scratch in order to customise the compilation process.
+
+- ### AI Frameworks:
+
+	***Week-12 (30/Jun – 06/Jul) ~ Week-14 (14/Jul – 20/Jul)***
+
+	By reading through the document provided by and department and supplementary tutorials from Udemy, I have grasped the usage of AI frameworks like Tensorflow and Caffe. These have granted me with the ability to perform simple validations on the neural networks to obtain loss and accuracy results according to various parameters based on the augmented dataset for verification.
+
+- ### C++ and OpenGL programming: 
+
+	***Stage 1: Week-06 (19/May – 25/May) ~ Week-08 (02/Jun – 08/Jun) </br>
+	   Stage 2: Week-10 (16/Jun – 29/Jun) ~ Week-12 (30/Jun – 06/Jul)***
+
+	As not being a computer science student, my C++ programming skill was not as proficient as the professionals. In order to reinforce the basic C++ programming skills inherited from DE3 Robotics project and master the usage of OpenGL packages, I have gone through fundamental learning documentation provided by the department and online training courses. In addition, communications with some experts from the AR/VR department have helped me tackling unusual problems and helped me acquiring more dexterous C++ and OpenGL programming skills eventually.
+
+	During stage 1: I have been learning basic vertex and fragment shader language in C and comprehend the expressions and calculations with vec2, 3, 4. Furthermore, I investigated into distinguishing the various colour and brightness contrast effects each of ambient, diffuse and specular lighting on the objects and materials.
+	
+	During stage 2, I investigated deeper into shadowing effects and programmed vividly both directional shadows and point shadows.
+
+</br>
+
 
 
 ##### *Week 9 (09/Jun - 15/Jun)*
