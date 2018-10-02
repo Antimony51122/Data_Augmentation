@@ -63,23 +63,23 @@ Knowledge and Hard Skills Learning Progressions
 	
 	During stage 2, I investigated deeper into shadowing effects and programmed vividly both directional shadows and point shadows.
 
+- ### Wrapper:
+
+	***Week-15 (21/Jul – 27/Jul) ~ Week-17 (14/Jul – 20/Jul)***
+
+	As mentioned above, the program I have developed has to be wrapped in a portable library. I achieved by learning the Boost.Python package which can enable using simple python lines to call very complicated C++ functions. Furthermore, through learning the package, I got an insight of how industry standard programming manages and coordinate portability and finish of one’s work. 
+
 </br>
 
+## Software-wise
+
+- ### Prototyping tools:
+
+	***Week-02 (23/Apr – 29/Apr) ~ Week-03 (30/Apr – 04/May)***
+
+	By finishing online courses on image processing software and, I have extended my ability in prototyping using PS inherit from DE projects. In addition, through help from colleagues, I have grasped how to GIMP which could be specified as the Linux version of Photoshop and write plug-ins to customise the usage and automatize the process of bulk processing.  
 
 
-##### *Week 9 (09/Jun - 15/Jun)*
-
-#### Interim Report
-
-<br/>
-
-<!--------------------------------------------- week 9 -------------------------------------------------->
-
-
-
-##### *Week 10 (16/Jun - 22/Jun) <br/> Week 11 (23/Jun - 29/Jun)*
-
-#### Advanced OpenGL
 
 - Shadows
 	- Directional Shadows
@@ -103,25 +103,7 @@ Knowledge and Hard Skills Learning Progressions
 - **The `BOOST_PYTHON_MODULE` Macro**
 
 
-#### Advanced OpenGL
 
-
-
-<br/>
-
-<!--------------------------------------------- week 12, 13, 14, 15, 16 ---------------------------------->
-
-
-
-##### *Week 17 (04/Aug - 10/Aug)*
-
-<!--------------------------------------------- week 17 -------------------------------------------------->
-
-##### *Week 18 (11/Aug - 17/Aug)*
-
-##### *Week 19 (18/Aug - 24/Aug)*
-
-##### *Week 20 (25/Aug - 31/Aug)*
 
 - learning software rendering
 - **mesa** packages
@@ -132,15 +114,6 @@ Knowledge and Hard Skills Learning Progressions
 ##### Week-22 (08/Sep - 14/Sep)
 
 learning **Cmake**, compiling own algorithms
-
-Week-23 (15/Sep - 21/Sep)
-
-Week-24 (22/Sep - 28/Sep + 29/Sep(contract end date))
-
-<!--------------------------------------------- week 24 -------------------------------------------------->
-
-
-
 
 
 
