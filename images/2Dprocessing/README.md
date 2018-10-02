@@ -376,3 +376,6 @@ A little fun has been created using the facial landmark detection algorithms.
 </table>
 
 > From this little fun here we can see the drawbacks of facial landmark detection algorithms that it works only fine with front view. As long as there is tilting, the algorithm starts to messing about. Therefore, 2D to 3D approaches will be needed. (shown in latter section)
+
+</br>
+
