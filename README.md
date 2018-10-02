@@ -23,7 +23,7 @@ It is common knowledge that the more data an machine learning algorithm has acce
 - [3D Construction Aprroaches](./images/3Dprocessing/README.md)
 - [Mesa Package & Software Rendering](./images/mesa/README.md)
 - boost python 
-- learning according to date(change name)
+- [Reflection and Development](./images/learning_schedule/README.md)
 - transformers
 
 
