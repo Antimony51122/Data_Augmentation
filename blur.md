@@ -34,11 +34,11 @@
 
 
   
-	- Implementation:
-    	- https://blog.csdn.net/matrix_space/article/details/72303076 (high-pass)
+- Implementation:
+  - https://blog.csdn.net/matrix_space/article/details/72303076 (high-pass)
 
-	- Prototype:
-	- Algorithms:
+- Prototype:
+- Algorithms:
 
 
 
