@@ -216,10 +216,11 @@ A set of surveillance cameras have been placed on the way from the office buildi
     	<th>On the way towards the Canteen (Night) with label</th>
   	</tr>
   	<tr>
-		<td><img src="campus_day_night/day_towardsCateen.jpg"></td>
-		<td><img src="campus_day_night/day_towardsCateen_label.jpg"></td>
-		<td><img src="campus_day_night/day_towardsOffice_label.jpg"></td>
-  	</tr>
-
+		<td><img src="campus_day_night/night_towardsOffice.jpg"></td>
+		<td><img src="campus_day_night/night_towardsCateen.jpg"></td>
+		<td><img src="campus_day_night/night_towardsCateen_label.jpg"></td>
   	</tr>
 </table>
+
+> During night, the strong street lamp creates a much bigger brightness contrast on facial appearance, which can be perceived by the images below:
+
