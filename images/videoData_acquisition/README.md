@@ -226,11 +226,11 @@ A set of surveillance cameras have been placed on the way from the office buildi
 
 
 
-<table width=100%>
+<table>
   	<tr>
     	<th>Facial appearance changes according to various lightings from the same shooting angle</th>
   	</tr>
   	<tr>
-		<td><img src="campus_day_night/proto/lighting-directionChange.jpg" width=100%></td>
+		<td><img src="campus_day_night/proto/lighting-directionChange.jpg"></td>
   	</tr>
 </table>
