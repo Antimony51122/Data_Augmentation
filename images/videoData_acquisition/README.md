@@ -234,3 +234,7 @@ A set of surveillance cameras have been placed on the way from the office buildi
 		<td><img src="campus_day_night/proto/lighting-directionChange.jpg"></td>
   	</tr>
 </table>
+
+</br>
+
+<!-------------------- data acquisition section finished -------------------->
