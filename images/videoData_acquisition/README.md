@@ -171,3 +171,36 @@ The last scene shown is of a more complicated combination of elements, involved 
 ## Scene 4: Huawei Campus Day/Night Comparison
 
 ### Main Features: 
+
+- 360-degree full range campus surveillance cameras consecutively working day & night
+- investigate various lighting scenarios from morning to night in aspects of both:
+	- intensity
+	- direction
+- investigate viewing the same face identities from 2 opposite angles
+
+A set of surveillance cameras have been placed on the way from the office building to the canteen to get a 360 full-range view of the path and environment around.
+
+<table>
+  	<tr>
+    	<th>On the way towards the Canteen</th>
+    	<th>with label box</th>
+  	</tr>
+  	<tr>
+		<td><img src="campus_day_night/day_towardsCateen.jpg"></td>
+		<td><img src="campus_day_night/day_towardsCateen_label.jpg"></td>
+  	</tr>
+
+  	<tr>
+    	<th>On the way towards the Office building from the Canteen</th>
+    	<th>with label box</th>
+  	</tr>
+  	<tr>
+		<td><img src="campus_day_night/day_towardsOffice.jpg"></td>
+		<td><img src="campus_day_night/day_towardsOffice_label.jpg"></td>
+  	</tr>
+</table>
+
+> The purpose of these cameras here is to capture facial and body IDs from both angles and extract feature informations like cloth colours and perform the matching.
+
+> There good point of the design is that people going to canteen will normally be back within 20mins so the sunlight doesn't change much within that period of time, and by shooting from opposite angles, we might promptly capture the facial expressions when the sunlight is on the right side of the face against left side of the face.
+
