@@ -224,3 +224,13 @@ A set of surveillance cameras have been placed on the way from the office buildi
 
 > During night, the strong street lamp creates a much bigger brightness contrast on facial appearance, which can be perceived by the images below:
 
+
+
+<table width=100%>
+  	<tr>
+    	<th>Facial appearance changes according to various lightings from the same shooting angle</th>
+  	</tr>
+  	<tr>
+		<td><img src="campus_day_night/proto/lighting-directionChange.jpg" width=100%></td>
+  	</tr>
+</table>
