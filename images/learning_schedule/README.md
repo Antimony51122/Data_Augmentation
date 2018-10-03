@@ -6,7 +6,7 @@ make Gantt chart with colour specifications according to:
 - Linux shell Environment & Docker Usage
 - Programming fundamentals
 - Algorithm Developments
- 
+
 
 <h1 align="center">
 	Reflection and Development
@@ -90,11 +90,7 @@ Knowledge and Hard Skills Learning Progressions
 
 <br/>
 
-<!--------------------------------------------- week 10, 11 ---------------------------------------------->
 
-
-
-##### *Week 12 (30/Jun - 06/Jul) <br/> Week 13 (07/Jul - 13/Jul) <br/> Week 14 (14/Jul - 20/Jul) <br/> Week 15 (21/Jul - 27/Jul) <br/> Week 16 (28/Jul - 03/Aug)*
 
 #### Boost Python
 
