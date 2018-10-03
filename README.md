@@ -24,10 +24,6 @@ It is common knowledge that the more data an machine learning algorithm has acce
 - [Mesa Package & Software Rendering](./images/mesa/README.md)
 - [Boost Python Wrapper](./images/boost_python/README.md)
 - [Reflection and Development](./images/learning_schedule/README.md)
-- transformers
-
-
-
-
+- [Mobilisation Meeting](./images/mobilisation_meeting/README.md)
 
 <br/>
