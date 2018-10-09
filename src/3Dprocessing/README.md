@@ -130,7 +130,7 @@ Investigation of Shadows:
     	<th>Moving Point Lighting</th>
   	</tr>
   	<tr>
-    	<td><img src="./swinging_light_changing_photos.gif" width=100%></td>
+    	<td><img src="./swinging_light_changing_photos.gif" width=1080px></td>
   	</tr>
 </table>
 
