@@ -143,13 +143,15 @@ Firstly, let's look at how lighting might affect the facial contour perception: 
 </table>
 
 
-Unlike license plates, or even car body, human face is of a much more complicated shape that cannot be reconstructed with simple geometrical shapes. Yaw, pitch and roll variations appear to be the hardest augmentation to actualise using traditional image processing apart from applying GAN network.
+Unlike license plates, or even car body, human face is of a much more complicated shape that cannot be reconstructed with simple geometrical shapes. 
+
+Yaw, pitch and roll variations appear to be the hardest augmentation to actualise using traditional image processing apart from applying GAN network due that not enough facial information could be collected for a "turn-around" action. Therefore we have to augment data either by making up fake details using GAN network or apply 3D reconstruction methods to emphasis on some of the features while suppressing the others to perform the yaw, pitch and roll modifications.
 
 <h1 align="center">
 	<img src="yaw_pitch_roll_humanFace.png" alt="Awesome">
 </h1>
 
-However, by utilising deep learning, a program that reconstruct human faces from 2D images to form 3D models that based on mapping human face to a series of simplified common facial models by anchor point recognition algorithms has been developed.
+By utilising deep learning, a program that reconstruct human faces from 2D images to form 3D models that based on mapping human face to a series of simplified common facial models by anchor point recognition algorithms has been developed.
 
 > check the project github: https://github.com/AaronJackson/vrn
 
