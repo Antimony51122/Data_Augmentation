@@ -143,31 +143,32 @@ Firstly, let's look at how lighting might affect the facial contour perception: 
 </table>
 
 
+Unlike license plates, or even car body, human face is of a much more complicated shape that cannot be reconstructed with simple geometrical shapes. Yaw, pitch and roll variations appear to be the hardest augmentation to actualise using traditional image processing apart from applying GAN network.
 
+<h1 align="center">
+	<img src="yaw_pitch_roll_humanFace.png" alt="Awesome">
+</h1>
 
-
-
-
-Unlike license plates, or even car body, human face is of a much more complicated shape that cannot be reconstructed with simple geometrical shapes. However, by utilising deep learning, a program that reconstruct human faces from 2D images to form 3D models that based on mapping human face to a series of simplified common facial models by anchor point recognition algorithms has been developed.
+However, by utilising deep learning, a program that reconstruct human faces from 2D images to form 3D models that based on mapping human face to a series of simplified common facial models by anchor point recognition algorithms has been developed.
 
 > check the project github: https://github.com/AaronJackson/vrn
 
-<table>
-  	<tr>
-    	<td><img src="2D_to_3D/obama.gif"></td>
-    	<td><img src="2D_to_3D/curie.gif"></td>
+<table align="center">
+  	<tr width=100% align="center">
+    	<td width=49%><img src="2D_to_3D/obama.gif"></td>
+    	<td width=49%><img src="2D_to_3D/curie.gif"></td>
   	</tr>
-  	<tr>
+  	<tr align="center">
     	<th>Obama</th>
     	<th>Curie</th>
   	</tr>
 </table>
 
+A standard approach could be shown via the example below:
 
 
-<h1 align="center">
-	<img src="yaw_pitch_roll_humanFace.png" alt="Awesome">
-</h1>
+
+
 
 ## Rapid Prototyping using Ae on Depth Image
 
