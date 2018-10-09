@@ -123,6 +123,26 @@ Investigation of Shadows:
 
 > From the second GIF, we can perceive yellow reflections orienting towards different angle due to the shoot in angle of the light from the point light. 
 
+**An real example could be shown below:**
+
+<table width=100%>
+  	<tr>
+    	<th>Moving Point Lighting</th>
+  	</tr>
+  	<tr>
+    	<td><img src="./swinging_light_changing_photos.gif" width=100%></td>
+  	</tr>
+</table>
+
+> WARNING: no real ID photos from Huawei data set could be provided due to regulation constraints. The above uses 2 random photos grabbed from internet.
+
+The 2D augmentation procedure follows:
+
+1. Build the light scene environment.
+2. Set the 112 x 112 dimensions as the image importing references.
+3. Importing all images from the data-set directory by applying traversal algorithm (here only showing 2 for convenience)
+4. Take screenshots regularly while the light swinging as the output image of augmentation.
+
 </br>
 
 # 2D to 3D Reconstruction
@@ -155,8 +175,8 @@ By utilising deep learning, a program that reconstruct human faces from 2D image
 
 > check the project github: https://github.com/AaronJackson/vrn
 
-<table align="center">
-  	<tr width=100% align="center">
+<table width=100%>
+  	<tr align="center">
     	<td width=49%><img src="2D_to_3D/obama.gif"></td>
     	<td width=49%><img src="2D_to_3D/curie.gif"></td>
   	</tr>
@@ -166,12 +186,12 @@ By utilising deep learning, a program that reconstruct human faces from 2D image
   	</tr>
 </table>
 
-**A standard approach could be shown via the example below:**
+**A standard approach could be shown via the coarse example below:**
 
 <table>
   	<tr>
-	    <th>whirling light source</th>
-	    <th>whirling light source with tone change</th>
+	    <th>Original image of human face</th>
+	    <th>.obj model with colour information added into the scene</th>
   	</tr>
   	<tr>
 	    <td><img src="2D_to_3D/max.jpg"></td>
