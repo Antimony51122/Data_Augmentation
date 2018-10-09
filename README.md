@@ -1,6 +1,6 @@
 # <center>**Industrial Placement Project Work and Outputs**</center> 
 
-<img src="images/cover_page/video_surveillance_cartoon.jpg" width=100% height=75%>
+<img src="./src/cover_page/video_surveillance_cartoon.jpg" width=100% height=75%>
 
 > **IMPORTANT**: mind that most of work I have done during my placement has been specified containing sensitive contents, therefore, after negotiation with the industry tutor, it has been agreed that, project works cannot be shown directly, but, I am allowed to use the same technique learnt from the placement and produce something else that is not straightly related to the interest of the company with providing very little portion of the source code. 
 
@@ -18,12 +18,12 @@ However, on the other hand, the project is to some extent hovering on the brink 
 
 It is common knowledge that the more data an machine learning algorithm has access to, the more effective it can be. However in the case when the data is of lower quality, despite the fact that the outcome will still be better, algorithms extracting useful data is necessary which will cost computer and lower the yield efficiency. This inspires the idea that rather than starting with an extremely large corpus of unstructured, unfiltered and unlabelled data (e.g. copied directly from webpages) that contains many errors, it would be more effective if we take a small, curated corpus of structured data and augment in a way that increases the performance of models trained on it. The procedure can be specified as following steps below:
 
-- [Video Data Acquisition](./images/videoData_acquisition/README.md)
-- [2D Image Processing Approaches](./images/2Dprocessing/README.md)
-- [3D Construction Aprroaches](./images/3Dprocessing/README.md)
-- [Mesa Package & Software Rendering](./images/mesa/README.md)
-- [Boost Python Wrapper](./images/boost_python/README.md)
-- [Reflection and Development](./images/learning_schedule/README.md)
-- [Mobilisation Meeting](./images/mobilisation_meeting/README.md)
+- [Video Data Acquisition](./src/videoData_acquisition/README.md)
+- [2D Image Processing Approaches](./src/2Dprocessing/README.md)
+- [3D Construction Aprroaches](./src/3Dprocessing/README.md)
+- [Mesa Package & Software Rendering](./src/mesa/README.md)
+- [Boost Python Wrapper](./src/boost_python/README.md)
+- [Reflection and Development](./src/learning_schedule/README.md)
+- [Mobilisation Meeting](./src/mobilisation_meeting/README.md)
 
 <br/>
