@@ -164,7 +164,7 @@ However, by utilising deep learning, a program that reconstruct human faces from
   	</tr>
 </table>
 
-A standard approach could be shown via the example below:
+**A standard approach could be shown via the example below:**
 
 <table>
   	<tr>
@@ -173,10 +173,14 @@ A standard approach could be shown via the example below:
   	</tr>
   	<tr>
 	    <td><img src="2D_to_3D/max.jpg"></td>
-	    <td><img src="2D_to_3D/swinging_light_face_model_wide.gif"></td>
+	    <td width=56%><img src="2D_to_3D/swinging_light_face_model_wide.gif"></td>
   	</tr>
 </table>
 
+1. Input an image of human face into the 3D reconstruction algorithm and output an obj model with colour information already loaded.
+2. Import the model into the OpenGL scene
+3. Propose the swing light around the face and seek the effects changes
+4. Take screenshots of the window and output as augmented data.
 
 ## Rapid Prototyping using Ae on Depth Image
 
