@@ -40,12 +40,12 @@ For the first scene, I have placed various models regarding different texture an
 
 <table>
   	<tr>
-	    	<th>Camera Movement Forwards and Backwards</th>
-	    	<th>Camera Movement left and right</th>
+	    <th>Camera Movement Forwards and Backwards</th>
+	   	<th>Camera Movement left and right</th>
   	</tr>
   	<tr>
-	    	<td><img src="gl_scenes/forwards_backwards.gif"></td>
-	    	<td><img src="gl_scenes/left_right.gif"></td>
+	   	<td><img src="gl_scenes/forwards_backwards.gif"></td>
+	   	<td><img src="gl_scenes/left_right.gif"></td>
   	</tr>
 </table>
 
@@ -131,14 +131,14 @@ Firstly, let's look at how lighting might affect the facial contour perception: 
 
 <table>
   	<tr>
-	    	<th>whirling light source</th>
-	    	<th>whirling light source with tone change</th>
-	    	<th>Swing light source</th>
+	    <th>whirling light source</th>
+	    <th>whirling light source with tone change</th>
+	    <th>Swing light source</th>
   	</tr>
   	<tr>
-	    	<td><img src="2D_to_3D/lady_green.gif"></td>
-	    	<td><img src="2D_to_3D/lady_purple.gif"></td>
-	    	<td width=27%><img src="2D_to_3D/man_swing_brown.gif" height=165px></td>
+	    <td><img src="2D_to_3D/lady_green.gif"></td>
+	    <td><img src="2D_to_3D/lady_purple.gif"></td>
+	    <td width=27%><img src="2D_to_3D/man_swing_brown.gif" height=165px></td>
   	</tr>
 </table>
 
@@ -166,8 +166,16 @@ However, by utilising deep learning, a program that reconstruct human faces from
 
 A standard approach could be shown via the example below:
 
-
-
+<table>
+  	<tr>
+	    <th>whirling light source</th>
+	    <th>whirling light source with tone change</th>
+  	</tr>
+  	<tr>
+	    <td><img src="2D_to_3D/max.jpg"></td>
+	    <td><img src="2D_to_3D/swinging_light_face_model_wide.gif"></td>
+  	</tr>
+</table>
 
 
 ## Rapid Prototyping using Ae on Depth Image
