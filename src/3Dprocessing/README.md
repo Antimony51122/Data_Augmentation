@@ -125,7 +125,7 @@ Investigation of Shadows:
 
 **An real example could be shown below:**
 
-<table width=100%>
+<table align="center" width=100%>
   	<tr>
     	<th>Moving Point Lighting</th>
   	</tr>
@@ -175,7 +175,7 @@ By utilising deep learning, a program that reconstruct human faces from 2D image
 
 > check the project github: https://github.com/AaronJackson/vrn
 
-<table width=100%>
+<table align="center" width=100%>
   	<tr align="center">
     	<td width=49%><img src="2D_to_3D/obama.gif"></td>
     	<td width=49%><img src="2D_to_3D/curie.gif"></td>
