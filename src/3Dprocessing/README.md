@@ -177,8 +177,8 @@ By utilising deep learning, a program that reconstruct human faces from 2D image
 
 <table align="center" width=100%>
   	<tr align="center">
-    	<td width=49%><img src="2D_to_3D/obama.gif"></td>
-    	<td width=49%><img src="2D_to_3D/curie.gif"></td>
+    	<td width=49%><img src="2D_to_3D/obama.gif" width=800px></td>
+    	<td width=49%><img src="2D_to_3D/curie.gif" width=800px></td>
   	</tr>
   	<tr align="center">
     	<th>Obama</th>
