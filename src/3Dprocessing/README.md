@@ -126,7 +126,7 @@ Investigation of Shadows:
 **An real example could be shown below:**
 
 <table align="center" width=100%>
-  	<tr>
+  	<tr align="center">
     	<th>Moving Point Lighting</th>
   	</tr>
   	<tr>
