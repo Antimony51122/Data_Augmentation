@@ -168,6 +168,8 @@ The following is two sets of sample runs:
     </tr>
 </table>
 
+> The last two pictures are the outputs that mimicking the back-light scenes
+
 - The second set with pink light mimicking colouring lighting scenarios:
 
 <table align="center" width=100%>
@@ -179,7 +181,6 @@ The following is two sets of sample runs:
       <th>middle</th>
       <th>right</th>
       <th>down left</th>
-      <th>down right</th>
     </tr>
     <tr>
       <td><img src="./samples0820/pink_upLeft.png"></td>
@@ -189,7 +190,6 @@ The following is two sets of sample runs:
       <td><img src="./samples0820/pink_mid.png"></td>
       <td><img src="./samples0820/pink_right.png"></td>
       <td><img src="./samples0820/pink_leftBack.png"></td>
-      <td><img src="./samples0820/pink_rightBack.png"></td>
     </tr>
 </table>
 
