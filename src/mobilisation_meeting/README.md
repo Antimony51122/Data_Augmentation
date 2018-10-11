@@ -41,3 +41,60 @@ We finally chose 5 autobots:
 	    <td><img src="optimusPrime/optimusPrime_robot_cloth.png"></td>
   	</tr>
 </table>
+
+<br/>
+
+### BumbleBee
+
+<table>
+  	<tr>
+	    <th>Front</th>
+	    <th>Back</th>
+  	</tr>
+  	<tr>
+	    <td><img src="bee/bee_car_blackBgd(z).png" width=2480px></td>
+	    <td><img src="bee/bee_robot_blackBgd.png"></td>
+  	</tr>
+</table>
+
+**Prototype with cloth contour outline:**
+
+<table>
+  	<tr>
+	    <th>Front with full size scene</th>
+	    <th>Back with smaller size just below the collar</th>
+  	</tr>
+  	<tr>
+	    <td><img src="bee/bee_car_cloth(z).png"></td>
+	    <td><img src="bee/bee_robot_cloth.png"></td>
+  	</tr>
+</table>
+
+<br/>
+
+### Crosshair
+
+<table>
+  	<tr>
+	    <th>Front</th>
+	    <th>Back</th>
+  	</tr>
+  	<tr>
+	    <td><img src="crosshair/crosshair_car_blackBgd.png" width=2100px></td>
+	    <td><img src="crosshair/crosshair_robot_blackBgd.png"></td>
+  	</tr>
+</table>
+
+**Prototype with cloth contour outline:**
+
+<table>
+  	<tr>
+	    <th>Front with full size scene</th>
+	    <th>Back with smaller size just below the collar</th>
+  	</tr>
+  	<tr>
+	    <td><img src="crosshair/crosshair_car_cloth.png"></td>
+	    <td><img src="crosshair/crosshair_robot_cloth.png"></td>
+  	</tr>
+</table>
+
