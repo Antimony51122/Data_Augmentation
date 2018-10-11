@@ -1,5 +1,5 @@
 <h1 align="center">
-	Boost Python Wrapper
+	Team Cloth Design
 </h1>
 
 <img src="">
