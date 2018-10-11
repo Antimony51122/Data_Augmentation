@@ -10,11 +10,13 @@ The idea of the cloth was using transformers as the main character and place a s
 
 We finally chose 5 autobots: 
 
-- Optimus Prime (Only 1 produced for the Project leader)
-- Bumblebee
-- Crosshair
-- Drift
-- HotRod
+- **Optimus Prime** (Only 1 produced for the Project leader)
+- **Bumblebee**
+- **Crosshair**
+- **Drift**
+- **HotRod**
+
+> Apart from the most famous Optimus Prime and Bumblebee, the selection of the other 3 were according to the purpose fulfilling one each for **RGB**.
 
 ### Optimus Prime
 
@@ -98,3 +100,54 @@ We finally chose 5 autobots:
   	</tr>
 </table>
 
+### drift
+
+<table>
+  	<tr>
+	    <th>Front</th>
+	    <th>Back</th>
+  	</tr>
+  	<tr>
+	    <td><img src="drift/drift_car_blackBgd.png" width=2250px></td>
+	    <td><img src="drift/drift_robot_blackBgd.png"></td>
+  	</tr>
+</table>
+
+**Prototype with cloth contour outline:**
+
+<table>
+  	<tr>
+	    <th>Front with full size scene</th>
+	    <th>Back with smaller size just below the collar</th>
+  	</tr>
+  	<tr>
+	    <td><img src="drift/drift_car_cloth.png"></td>
+	    <td><img src="drift/drift_robot_clothBack.png"></td>
+  	</tr>
+</table>
+
+### Hot-Rod
+
+<table>
+  	<tr>
+	    <th>Front</th>
+	    <th>Back</th>
+  	</tr>
+  	<tr>
+	    <td><img src="hotRod/hotRod_car_blackBgd.png"></td>
+	    <td><img src="hotRod/hotRod_Robot_blackBgd.png"></td>
+  	</tr>
+</table>
+
+**Prototype with cloth contour outline:**
+
+<table>
+  	<tr>
+	    <th>Front with full size scene</th>
+	    <th>Back with smaller size just below the collar</th>
+  	</tr>
+  	<tr>
+	    <td><img src="hotRod/hotRod_car_cloth.png"></td>
+	    <td><img src="hotRod/hotRod_robot_cloth.png"></td>
+  	</tr>
+</table>
