@@ -161,9 +161,4 @@ back-light
 
 ### cover: glasses, mouth-mask
 
-</br>
-
----
-
-### let the world recognise us
 
