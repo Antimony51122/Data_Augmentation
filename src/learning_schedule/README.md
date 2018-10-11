@@ -1,5 +1,3 @@
-
-
 <h1 align="center">
 	Reflection and Development
 </h1>
@@ -7,6 +5,8 @@
 ### **Knowledge and Hard Skills Learning Progressions**
 
 <img src="learning_gantt.png" />
+
+<br/>
 
 ## Algorithm-wise:
 
@@ -38,6 +38,9 @@
 
 	During stage 1: through the training from the technician, I have been granted the knowledge of Linux shell structure such as PATH variables exporting. A fully detailed documentation about Dockers and version controls has also been provided by the technician in order to help new employees quickly forge themselves into the industry standard programming mode.
 
+	- **Learning `mesa` Packages with `llvm` Software Rendering** 
+	- **Learning `Cmake`**
+
 	During stage 2: due to lacking GPU rendering power, I investigated online about software rendering. With the instruction from the technician, I have gained the knowledge of Mesa package, LLVM software rendering pipeline with SCon compilation and obtained a very detailed instruction noting the ways tackling all compilation conflicts during construction of software render environment. Other than that, I learned writing Cmakefiles from scratch in order to customise the compilation process.
 
 - ### AI Frameworks:
@@ -60,6 +63,11 @@
 - ### Wrapper:
 
 	***Week-15 (21/Jul – 27/Jul) ~ Week-17 (14/Jul – 20/Jul)***
+
+	- **Library Build & Compilation**
+	- **Visual Studio Environment Setup**
+	- **The `BOOST_PYTHON_MODULE` Macro**
+	- **Learning Linux `.so` Format**
 
 	As mentioned above, the program I have developed has to be wrapped in a portable library. I achieved by learning the Boost.Python package which can enable using simple python lines to call very complicated C++ functions. Furthermore, through learning the package, I got an insight of how industry standard programming manages and coordinate portability and finish of one’s work. 
 
@@ -88,22 +96,17 @@
 
 #### Boost Python
 
-- **Library Build & Compilation**
-- **Visual Studio Environment Setup**
-- **The `BOOST_PYTHON_MODULE` Macro**
 
 
 
 
-- learning software rendering
-- **mesa** packages
-- **llvm**
+
 
 ##### Week-21 (01/Sep - 07/Sep)
 
 ##### Week-22 (08/Sep - 14/Sep)
 
-learning **Cmake**, compiling own algorithms
+
 
 
 
