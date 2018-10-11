@@ -4,7 +4,9 @@
 	Reflection and Development
 </h1>
 
+### **Knowledge and Hard Skills Learning Progressions**
 
+<img src="learning_gantt.png" />
 
 ## Algorithm-wise:
 
