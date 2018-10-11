@@ -1,18 +1,10 @@
-> # make a Gantt chart for final report !!! (even from the first week)
-
-make Gantt chart with colour specifications according to:
-
-- Prototyping tools 
-- Linux shell Environment & Docker Usage
-- Programming fundamentals
-- Algorithm Developments
 
 
 <h1 align="center">
 	Reflection and Development
 </h1>
 
-Knowledge and Hard Skills Learning Progressions 
+
 
 ## Algorithm-wise:
 
