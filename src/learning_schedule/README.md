@@ -22,6 +22,11 @@
 	   Stage 2: Week-21 (01/Sept – 07/Sept) ~ Week-24 (22/Sept – 28/Sept + 29/Sept (contract end date))***
 
 	During stage 1, I followed online tutorials and applied the knowledge inherited from DE3 robotics module to acquire sufficient understanding of how translation and rotation matrices manipulate the camera view coordinate systems. In addition, I looked into the physics theories about the effect of focus and ambient, diffuse and specular lighting on the objects and materials and applied the equations to create vivid Phong lighting effects.
+
+	- Filtering & Mip-Mapping:
+		- nearest
+		- linear
+		- anisotropic
 	
 	During stage 2, I have been researching on open-source project on Github, and consecutively analysing on the speed results applying various algorithms in details, I have gained a glimpse of insight into the internal relationships between various ways of rendering and the compute power utilised and how to reduce the algorithm complexity in order to boost the efficiency of generation.
 
@@ -91,23 +96,19 @@
 
 
 <br/>
-
-
-
-#### Boost Python
-
-
-
-
-
-
-
-##### Week-21 (01/Sep - 07/Sep)
-
-##### Week-22 (08/Sep - 14/Sep)
-
-
-
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
 
 
 # Next Step:
@@ -143,11 +144,7 @@ back-light
 
 ## algorithm-wisely
 
-### filtering & mip-mapping
-
-- nearest
-- linear
-- anisotropic 
+###  
 
 ## researches: ways that don't work:
 
