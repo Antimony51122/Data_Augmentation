@@ -143,6 +143,56 @@ The 2D augmentation procedure follows:
 3. Importing all images from the data-set directory by applying traversal algorithm (here only showing 2 for convenience)
 4. Take screenshots regularly while the light swinging as the output image of augmentation.
 
+The following is two sets of sample runs:
+
+- The first set with simple white light:
+
+<table align="center" width=100%>
+    <tr align="center">
+      <th>up left</th>
+      <th>up</th>
+      <th>up right</th>
+      <th>left</th>
+      <th>middle</th>
+      <th>down left</th>
+      <th>down right</th>
+    </tr>
+    <tr>
+      <td><img src="./samples0820/white_upLeft.png"></td>
+      <td><img src="./samples0820/white_up.png"></td>
+      <td><img src="./samples0820/white_upRight.png"></td>
+      <td><img src="./samples0820/white_left.png"></td>
+      <td><img src="./samples0820/white_mid.png"></td>
+      <td><img src="./samples0820/white_leftBack.png"></td>
+      <td><img src="./samples0820/white_rightBack.png"></td>
+    </tr>
+</table>
+
+- The second set with pink light mimicking colouring lighting scenarios:
+
+<table align="center" width=100%>
+    <tr align="center">
+      <th>up left</th>
+      <th>up</th>
+      <th>up right</th>
+      <th>left</th>
+      <th>middle</th>
+      <th>right</th>
+      <th>down left</th>
+      <th>down right</th>
+    </tr>
+    <tr>
+      <td><img src="./samples0820/pink_upLeft.png"></td>
+      <td><img src="./samples0820/pink_up.png"></td>
+      <td><img src="./samples0820/pink_upRight.png"></td>
+      <td><img src="./samples0820/pink_left.png"></td>
+      <td><img src="./samples0820/pink_mid.png"></td>
+      <td><img src="./samples0820/pink_right.png"></td>
+      <td><img src="./samples0820/pink_leftBack.png"></td>
+      <td><img src="./samples0820/pink_rightBack.png"></td>
+    </tr>
+</table>
+
 </br>
 
 # 2D to 3D Reconstruction
