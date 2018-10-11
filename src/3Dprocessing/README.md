@@ -139,7 +139,7 @@ Investigation of Shadows:
 The 2D augmentation procedure follows:
 
 1. Build the light scene environment.
-2. Set the 112 x 112 dimensions as the image importing references.
+2. Set the 112 x 156 dimensions as the image importing references.
 3. Importing all images from the data-set directory by applying traversal algorithm (here only showing 2 for convenience)
 4. Take screenshots regularly while the light swinging as the output image of augmentation.
 
