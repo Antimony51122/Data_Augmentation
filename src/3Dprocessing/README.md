@@ -15,14 +15,14 @@ The GIFs looking like randomly generated firework are actually following rigorou
 
 <table>
   	<tr>
-	    	<th>Beginning, particles gradually grow</th>
-	    	<th>Big Contrast Tone Change</th>
-	    	<th>Ending, particles gradually fade out</th>
+	    <th>Beginning, particles gradually grow</th>
+	    <th>Big Contrast Tone Change</th>
+	    <th>Ending, particles gradually fade out</th>
   	</tr>
   	<tr>
-	    	<td><img src="fire_particles/beginning_402px.gif"></td>
-	    	<td><img src="fire_particles/tone_change_402px.gif"></td>
-	    	<td><img src="fire_particles/ending_402px.gif"></td>
+	    <td><img src="fire_particles/beginning_402px.gif"></td>
+	    <td><img src="fire_particles/tone_change_402px.gif"></td>
+	    <td><img src="fire_particles/ending_402px.gif"></td>
   	</tr>
 </table>
 
